@@ -13,7 +13,7 @@ const Text = ({
   anchor: string;
 }) => {
   return (
-    <div className="my-auto flex flex-col w-2/6">
+    <div className="my-auto flex flex-col lg:w-2/6 ">
       <h3 className="font-size-extra-large font-bold mb-4">{header}</h3>
       <p className="font-size-large mb-8">{paragraph}</p>
       <BtnCaseStudy link={anchor} />
@@ -50,7 +50,12 @@ export default function Card({ direction, color }: CardProps) {
           anchor={"#"}
         />
 
-        <img height="350px" width="580px" src="/images/project_card_1.png" />
+        <img
+          className="lg:mt-0 mt-4"
+          height="350px"
+          width="580px"
+          src="/images/project_card_1.png"
+        />
       </Row>
     </section>
   );
