@@ -39,22 +39,21 @@ export default function Card({ direction, color }: CardProps) {
     <section
       className={`flex ${getColor(
         color
-      )} h-[425px] rounded-lg shadow-lg pl-7 pr-7  py-6 w-full `}
+      )} min-h-[425px] rounded-lg shadow-lg pl-7 pr-7  py-6 w-full `}
     >
-      <Row direction={direction}>
+      <Row className="sm:max-lg:flex-col-reverse" direction={direction}>
+        <img
+          className="lg:mt-0 mt-4"
+          height="350px"
+          width="580px"
+          src="/images/project_card_1.png"
+        />
         <Text
           header={"Project Title"}
           paragraph={
             "The challenge of redesigning a non-profit website to build trust online with users"
           }
           anchor={"#"}
-        />
-
-        <img
-          className="lg:mt-0 mt-4"
-          height="350px"
-          width="580px"
-          src="/images/project_card_1.png"
         />
       </Row>
     </section>
