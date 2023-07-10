@@ -1,13 +1,8 @@
-import Link from "next/link";
-import VideoThumb from "@/public/images/hero-image-01.jpg";
-import ModalVideo01 from "@/components/modal-video-01";
 import Row from "@/components/Row";
-//create a row component that uses flex to align two elements, and on mobile align vertically
 
 export default function HeroHome() {
   return (
     <section className="relative">
-      {/* Dark background */}
       <div
         className="absolute inset-0 pointer-events-none -z-10 [clip-path:polygon(0_0,_5760px_0,_5760px_calc(100%_-_352px),_0_100%)]"
         aria-hidden="true"
@@ -15,10 +10,8 @@ export default function HeroHome() {
 
       <div className="relative ">
         <div className="pt-32 pb-20 md:pt-40 md:pb-44">
-          {/* Hero content */}
-
           <Row direction="left">
-            <div className="w-full lg:w-1/2" data-aos="fade-right">
+            <div className="w-full lg:w-1/2">
               <h2 className="hero-hello">Hello!</h2>
               <p className="hero-copy ">
                 I'm a <b>UX/UI Designer</b> based in Seattle, WA who
@@ -50,25 +43,13 @@ export default function HeroHome() {
               </div>
             </div>
 
-            {/* Hero image */}
-            {/* <ModalVideo01
-              thumb={VideoThumb}
-              thumbWidth={540}
-              thumbHeight={405}
-              thumbAlt="Modal video thumbnail"
-              video="/videos/video.mp4"
-              videoWidth={1920}
-              videoHeight={1080} />             */}
             <img
               src="/images/hero_image.png"
               alt="Hero image"
               className="w-full lg:w-1/2"
-              data-aos="fade-left"
-              data-aos-delay="200"
               style={{ maxWidth: "460px" }}
             />
           </Row>
-          {/* Content */}
         </div>
       </div>
     </section>

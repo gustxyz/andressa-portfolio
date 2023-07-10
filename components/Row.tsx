@@ -11,7 +11,7 @@ const Row = ({ children, direction, className = "" }: RowProps) => {
   };
   return (
     <div
-      className={`flex flex-col ${className} ${getDirection(
+      className={`${className} flex flex-col ${getDirection(
         direction
       )} justify-between items-center`}
     >

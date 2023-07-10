@@ -26,6 +26,7 @@ body {
   --black: #000;
   --primary-font: "Montserrat";
   --secondary-font: "Nunito";
+  --grey-white: #fbfbfb;
   background: var(--off-black);
 }
 
@@ -37,8 +38,16 @@ body {
   font-family: var(--secondary-font);
 }
 
+.font-size-extra-extra-large {
+  font-size: 45px;
+}
+
 .font-size-extra-large {
   font-size: 40px;
+}
+
+.font-size-large-extra-large {
+  font-size: 24px;
 }
 
 .font-size-large {
@@ -47,6 +56,10 @@ body {
 
 .font-size-regular {
   font-size: 18px;
+}
+
+.font-size-regular-small {
+  font-size: 16px;
 }
 
 .font-size-small {

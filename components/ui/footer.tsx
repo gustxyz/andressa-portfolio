@@ -12,7 +12,7 @@ const Center = ({ children }: { children: React.ReactNode }) => {
 
 export default function Footer() {
   return (
-    <footer className="pb-8">
+    <footer className="py-8">
       <Center>
         <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
         <div className="secondary-font font-size-regular text-white py-2">

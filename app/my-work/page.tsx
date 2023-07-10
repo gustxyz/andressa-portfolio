@@ -11,29 +11,38 @@ import Features03 from "@/components/features-home-03";
 import Target from "@/components/target";
 import PricingSection from "@/components/pricing";
 import Cta from "@/components/cta";
+import Container from "@/components/Container";
 
 //create a spacer component that creates 64px of space on the top and bottom
 const Spacer = () => {
   return <div className="h-16"></div>;
 };
 
-const Container = ({ children }: { children: React.ReactNode }) => {
-  return <div className="max-w-6xl mx-auto px-4 sm:px-6">{children}</div>;
-};
-
 export default function Home() {
   return (
     <>
+      <Spacer />
+      <Spacer />
       <Container>
-        <Hero />
+        <Card
+          imagePath="/images/project_card_1.png"
+          contentTitle="Project Title"
+          contentParagraph="The challenge of redesigning a non-profit website to build trust online with users"
+          contentAnchor="my-work/seattle-dogs"
+          color="white"
+          direction="left"
+        />
       </Container>
       <Spacer />
       <Container>
-        <Card color="yellow" direction="left" />
-      </Container>
-      <Spacer />
-      <Container>
-        <Card color="white" direction="right" />
+        <Card
+          imagePath="/images/project_card_1.png"
+          contentTitle="Project Title"
+          contentParagraph="The challenge of redesigning a non-profit website to build trust online with users"
+          contentAnchor="my-work/seattle-dogs"
+          color="white"
+          direction="right"
+        />
       </Container>
       <Spacer />
     </>

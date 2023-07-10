@@ -25,6 +25,10 @@ const Text = ({
 interface CardProps {
   direction: string;
   color: string;
+  imagePath: string;
+  contentTitle: string;
+  contentParagraph: string;
+  contentAnchor: string;
 }
 
 //write a function that returns a color class depending on a color string passed in
@@ -34,7 +38,14 @@ const getColor = (color: string) => {
   return null;
 };
 
-export default function Card({ direction, color }: CardProps) {
+export default function Card({
+  direction,
+  color,
+  imagePath,
+  contentTitle,
+  contentAnchor,
+  contentParagraph,
+}: CardProps) {
   return (
     <section
       className={`flex ${getColor(
@@ -46,14 +57,12 @@ export default function Card({ direction, color }: CardProps) {
           className="lg:mt-0 mt-4"
           height="350px"
           width="580px"
-          src="/images/project_card_1.png"
+          src={imagePath}
         />
         <Text
-          header={"Project Title"}
-          paragraph={
-            "The challenge of redesigning a non-profit website to build trust online with users"
-          }
-          anchor={"#"}
+          header={contentTitle}
+          paragraph={contentParagraph}
+          anchor={contentAnchor}
         />
       </Row>
     </section>

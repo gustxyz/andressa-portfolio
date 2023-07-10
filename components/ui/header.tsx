@@ -13,7 +13,7 @@ interface NavbarLink {
 const navbarLinks: NavbarLink[] = [
   {
     title: "My Work",
-    href: "/work",
+    href: "/my-work",
   },
   {
     title: "About",
@@ -55,10 +55,14 @@ export default function Header({ mode = "dark" }: { mode?: string }) {
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
-            <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
-          </div>
-
+          <Link
+            href={"/"}
+            className="hover:translate-y-[-2px]  nav-link  transition duration-150 ease-in-out"
+          >
+            <div className="shrink-0 mr-4">
+              <img src="/images/logo.png" alt="Logo" className="h-8 w-auto" />
+            </div>
+          </Link>
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             {/* Desktop menu links */}
