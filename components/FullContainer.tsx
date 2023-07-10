@@ -1,4 +1,4 @@
-interface FullontainerProps {
+interface FullContainerProps {
   children: React.ReactNode;
   className?: string;
 }
