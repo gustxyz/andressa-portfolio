@@ -189,16 +189,13 @@ const ResearchItemList = ({
 
 //write a react component that is a contact form with name, email, and message
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("mwkdkjel");
-  if (state.succeeded) {
-    console.log('success')
-    return <div>Thank you for signing up!</div>;
-  }
+ 
   return (
     <div className="flex flex-col items-center w-full">
       <form
-        onSubmit={handleSubmit}
+        action={"https://formspree.io/f/mwkdkjel"}
         className="flex flex-col items-center w-full"
+        method="POST"
       >
         <label className="secondary-font my-2   mr-auto font-size-regular-small  secondary-font">
           {" "}
@@ -212,7 +209,7 @@ const ContactForm = () => {
         ></input>
         <label className="secondary-font mr-auto my-2 font-size-regular-small  secondary-font">
           {" "}
-          Email
+          Email test
         </label>
 
         <input
@@ -233,7 +230,7 @@ const ContactForm = () => {
           placeholder="Your message..."
         ></textarea>
         <button
-          type="button" 
+          type="submit" 
           className="my-4 w-full h-[50px] bg-[color:#EE7A56] rounded-lg font-size-regular-small  secondary-font"
         >
           Send message
