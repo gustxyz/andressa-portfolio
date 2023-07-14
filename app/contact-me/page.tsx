@@ -191,34 +191,47 @@ const ResearchItemList = ({
 const ContactForm = () => {
   return (
     <div className="flex flex-col items-center w-full">
-      <form className="flex flex-col items-center w-full">
+      <form
+        action="https://formspree.io/f/mwkdkjel"
+        method="POST"
+        className="flex flex-col items-center w-full"
+      >
         <label className="secondary-font my-2   mr-auto font-size-regular-small  secondary-font">
           {" "}
           Name
         </label>
         <input
+          required
+          name="name"
           className="w-full h-[50px] border border-[black]   px-4"
           placeholder="Your full name"
         ></input>
         <label className="secondary-font mr-auto my-2 font-size-regular-small  secondary-font">
           {" "}
-          Name
+          Email
         </label>
 
         <input
+          required
+          name="email"
           className="w-full h-[50px] border border-[black] px-4"
           placeholder="me@company.com"
         ></input>
         <label className="secondary-font mr-auto   my-2 font-size-regular-small  secondary-font">
           {" "}
-          Name
+          Message
         </label>
 
         <textarea
+          required
+          name="message"
           className="w-full h-[150px] border border-[black] px-4"
           placeholder="Your message..."
         ></textarea>
-        <button className="my-4 w-full h-[50px] bg-[color:#EE7A56] rounded-lg font-size-regular-small  secondary-font">
+        <button
+          type="submit"
+          className="my-4 w-full h-[50px] bg-[color:#EE7A56] rounded-lg font-size-regular-small  secondary-font"
+        >
           Send message
         </button>
       </form>
