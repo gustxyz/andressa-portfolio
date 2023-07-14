@@ -89,3 +89,7 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+
+.box-shadow-about {
+  box-shadow: -8px 9px 0px 0px #000;
+}
