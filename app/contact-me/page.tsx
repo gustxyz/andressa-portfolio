@@ -191,6 +191,7 @@ const ResearchItemList = ({
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("mwkdkjel");
   if (state.succeeded) {
+    console.log('success')
     return <div>Thank you for signing up!</div>;
   }
   return (
@@ -232,7 +233,7 @@ const ContactForm = () => {
           placeholder="Your message..."
         ></textarea>
         <button
-          type="submit"
+          type="button" 
           className="my-4 w-full h-[50px] bg-[color:#EE7A56] rounded-lg font-size-regular-small  secondary-font"
         >
           Send message
