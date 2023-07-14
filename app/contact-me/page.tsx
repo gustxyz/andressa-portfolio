@@ -1,13 +1,13 @@
-export const metadata = {
-  title: "Home - Tidy",
-  description: "Page description",
-};
+'use client'
+
 
 import Card from "@/components/Card";
 import Row from "@/components/Row";
 import Container from "@/components/Container";
 import FullContainer from "@/components/FullContainer";
 import Link from "next/link";
+import { useForm } from "@formspree/react";
+
 /**
  *
  * CONTENT
@@ -189,11 +189,14 @@ const ResearchItemList = ({
 
 //write a react component that is a contact form with name, email, and message
 const ContactForm = () => {
+  const [state, handleSubmit] = useForm("mwkdkjel");
+  if (state.succeeded) {
+    return <div>Thank you for signing up!</div>;
+  }
   return (
     <div className="flex flex-col items-center w-full">
       <form
-        action="https://formspree.io/f/mwkdkjel"
-        method="POST"
+        onSubmit={handleSubmit}
         className="flex flex-col items-center w-full"
       >
         <label className="secondary-font my-2   mr-auto font-size-regular-small  secondary-font">
