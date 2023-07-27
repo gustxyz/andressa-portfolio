@@ -22,7 +22,7 @@ export default function Home() {
       <Container>
         <Card
           imagePath="/images/project_card_1.png"
-          contentTitle="Straightforward Payment Form"
+          contentTitle="An straightforward Payment Form"
           contentParagraph="The end to end creation of a functional payment/donation form. From UX research to the product design prototype"
           contentAnchor="my-work/seattle-dogs"
           color="yellow"
@@ -33,8 +33,8 @@ export default function Home() {
       <Container>
         <Card
           imagePath="/images/project_card_1.png"
-          contentTitle="Seattle Dogs Website re-design"
-          contentParagraph="The challenge of redesigning aa intuitive website so the users can feel trust with the organization."
+          contentTitle="Seattle Dogs Website Re-design"
+          contentParagraph="The challenge of redesigning an intuitive website so the users can feel trust with the organization."
           contentAnchor="my-work/seattle-dogs"
           color="white"
           direction="right"
