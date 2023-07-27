@@ -21,7 +21,7 @@ const navbarLinks: NavbarLink[] = [
   },
   {
     title: "Resume",
-    href: "/resume",
+    href: "/assets/andressa_dalecio_long_resume.pdf",
   },
   {
     title: "Contact Me",
