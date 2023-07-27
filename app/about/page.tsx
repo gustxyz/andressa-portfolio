@@ -18,7 +18,7 @@ import Link from "next/link";
 const HeroTitle = "About me";
 const Description1 = (
   <>
-    Hi, my name is Andressa! I'm a Brazilian UX/UI Designer living in Seattle,
+    Hi, my name is Andressa! 🥹 I'm a Brazilian UX/UI Designer living in Seattle,
     WA.
     <br />​ I've always known that I wanted to be a designer. With only 13 years
     old, I used to edit pictures, make banners and book covers for web-stories
