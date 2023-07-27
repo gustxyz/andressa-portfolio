@@ -36,7 +36,7 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/seattle_dogs_mockup.png"
+          imagePath="/images/v2_mockup_seattle_dogs.png"
           contentTitle="Seattle Dogs Website Re-design"
           contentParagraph="The challenge of redesigning an intuitive website so the users can feel trust with the organization."
           contentAnchor="my-work/seattle-dogs"
