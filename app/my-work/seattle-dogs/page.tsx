@@ -104,22 +104,22 @@ const ResearchDescription = (
 );
 const researchItems: ResearchItem[] = [
   {
-    imgPath: "/images/emoji_sad2.png",
+    imgPath: "/images/sad2_emoji.png",
     description:
       "100% of donors participants often feels frustrated if they don’t know where their money is going towards",
   },
   {
-    imgPath: "/images/emoji_thumbsup.png",
+    imgPath: "/images/thumbsup_emoji.png",
     description:
       "100% of the participants think that reading about experiences from volunteers, donors & supporters is important.",
   },
   {
-    imgPath: "/images/emoji_happy.png",
+    imgPath: "/images/smile_emoji.png",
     description:
       "25% of participants feel encouraged to donate if there’s a possibility of talking with the founder",
   },
   {
-    imgPath: "/images/emoji_sad.png",
+    imgPath: "/images/sad-emoji.png",
     description:
       "The participants who’ve never donated before have never found an organization they truly trust",
   },
