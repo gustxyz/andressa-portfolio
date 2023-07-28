@@ -25,7 +25,7 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/project_card_1.png"
+          imagePath="/images/payment_mockup.png"
           contentTitle="A straightforward Payment Form"
           contentParagraph="The end to end creation of aa functional payment/donation form. From UX research to the product design prototype."
           contentAnchor="my-work/seattle-dogs"
