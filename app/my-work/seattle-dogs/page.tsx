@@ -124,7 +124,7 @@ const researchItems: ResearchItem[] = [
       "The participants who’ve never donated before have never found an organization they truly trust",
   },
   {
-    imgPath: "/images/emoji_frustraded.png",
+    imgPath: "/images/frustraded-emoji.png",
     description:
       "20% of participants had a frustrating donation experience because the website wasn't clear on where they should click to start the donation process",
   },
