@@ -168,8 +168,8 @@ const ResearchFootnoteAuthor = "— Quote from a user's survey";
 const InsightsTitle = "Insights";
 const InsightsDescription = (
   <>
-    Either the business and the user wants the same thing: to build trust. Trust
-    and transparency are important values to encourage donations. The research
+    Either the business and the user wants the same thing: to build trust. <b>Trust
+    and transparency are important values to encourage donations.</b> The research
     data showed that users feel more confident donating when they feel closer to
     or moved by the cause they’re helping, by having a good and direct
     communication with the organization. That can be achieved through pictures
