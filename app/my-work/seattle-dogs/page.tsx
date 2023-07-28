@@ -159,7 +159,8 @@ const CompetitorAnalysisDescription = (
 
 const CompetitorImgPath1 = "/images/image_board.jpg";
 const CompetitorImgPath2 = "/images/image_notpositive.jpg";
-const CompetitorImgPath3 = "/images/image_positive.jpg";
+const CompetitorImgPath3 = "/images/research-img.png";
+const CompetitorImgPath4 = "/images/research-img.png";
 
 const ResearchFootnoteAuthor = "— Quote from a user's survey";
 
