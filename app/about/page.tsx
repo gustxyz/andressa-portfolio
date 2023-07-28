@@ -51,7 +51,7 @@ interface PersonalItem {
 //write a list of personal items
 const PersonalItems: PersonalItem[] = [
   {
-    imgPath: "/images/donate_test.png",
+    imgPath: "/images/traveling.jpg",
     header: "Exploring the world",
     description:
       "I’ve been traveling for 6 years now I love how there’s so much to see and learn with other cultures.",
