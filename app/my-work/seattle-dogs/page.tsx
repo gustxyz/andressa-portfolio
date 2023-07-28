@@ -94,7 +94,9 @@ const ResearchDescription = (
   <>
     I conducted <b>interviews</b>, <b>surveys</b> and <b>online research</b> to
     understand user’s motivations and behaviors. Total of 23 adult participants who had made a donation 
-    before or have interest in donating in the future. Questions like: “What motivates
+    before or have interest in donating in the future. 
+    <br />
+    Questions like: “What motivates
     the users to donate and how do they make decisions to do so?” “What
     information do they need to trust the organization?” was made as an
     important step to determine which user problems are the most important to
@@ -155,10 +157,9 @@ const CompetitorAnalysisDescription = (
   </>
 );
 
-const CompetitorImgPath1 = "/images/research-img.png";
-const CompetitorImgPath2 = "/images/research-img.png";
-const CompetitorImgPath3 = "/images/research-img.png";
-const CompetitorImgPath4 = "/images/research-img.png";
+const CompetitorImgPath1 = "/images/image_board.jpg";
+const CompetitorImgPath2 = "/images/image_notpositive.jpg";
+const CompetitorImgPath3 = "/images/image_positive.jpg";
 
 const ResearchFootnoteAuthor = "— Quote from a user's survey";
 
