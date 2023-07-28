@@ -39,7 +39,7 @@ const Description2 = (
 
 const Bubble = `"I'm passionate about creating solutions and based in empathy and inclusion, by designing with equity in mind."`;
 
-const HeroImgPath = "/images/project_card_1.png";
+const HeroImgPath = "/images/picture_me.jpg";
 
 //write an interface for personal items including an img path and a description
 interface PersonalItem {
@@ -57,13 +57,13 @@ const PersonalItems: PersonalItem[] = [
       "I’ve been traveling for 6 years now I love how there’s so much to see and learn with other cultures.",
   },
   {
-    imgPath: "/images/research-img.png",
+    imgPath: "/images/sandwich.jpeg",
     header: "Trying new food",
     description:
       "Any restaurant recommendation for me? I'm in! As a vegan, I love trying new food!",
   },
   {
-    imgPath: "/images/research-img.png",
+    imgPath: "/images/concert.jpg",
     header: "Concerts",
     description:
       "This might sound cliche, but there’s no lie when I say that I love music. Going to a concert is like going to therapy for me - ha. ",
