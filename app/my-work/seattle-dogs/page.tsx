@@ -17,7 +17,7 @@ import FullContainer from "@/components/FullContainer";
 //HERO
 const HeroTitle = "Seattle Dogs";
 const HeroDescription =
-  "Brief description about the project and the organization and what was the challenge faced";
+  "Sole UX & UI Designer: The process of re-designing an entire website to help users build trust with the organization.";
 const HeroImgPath = "/images/project_card_1.png";
 
 const projectStats: ProjectStats[] = [
@@ -93,7 +93,8 @@ const ResearchSubtitle = "Interview and survey";
 const ResearchDescription = (
   <>
     I conducted <b>interviews</b>, <b>surveys</b> and <b>online research</b> to
-    understand user’s motivations and behaviors. Questions like: “What motivates
+    understand user’s motivations and behaviors. Total of 23 adult participants who had made a donation 
+    before or have interest in donating in the future. Questions like: “What motivates
     the users to donate and how do they make decisions to do so?” “What
     information do they need to trust the organization?” was made as an
     important step to determine which user problems are the most important to
@@ -103,27 +104,27 @@ const ResearchDescription = (
 );
 const researchItems: ResearchItem[] = [
   {
-    imgPath: "/images/research-img.png",
+    imgPath: "/images/frustraded.png",
     description:
       "100% of donors participants often feels frustrated if they don’t know where their money is going towards",
   },
   {
-    imgPath: "/images/research-img.png",
+    imgPath: "/images/thumbsup.png",
     description:
       "100% of the participants think that reading about experiences from volunteers, donors & supporters is important.",
   },
   {
-    imgPath: "/images/research-img.png",
-    description:
-      "Participants who’ve never donated before either prefers to volunteer or have never found an organization they truly trust",
-  },
-  {
-    imgPath: "/images/research-img.png",
+    imgPath: "/images/happyemoji.png",
     description:
       "25% of participants feel encouraged to donate if there’s a possibility of talking with the founder",
   },
   {
-    imgPath: "/images/research-img.png",
+    imgPath: "/images/emogisad.png",
+    description:
+      "The participants who’ve never donated before have never found an organization they truly trust",
+  },
+  {
+    imgPath: "/images/frustradedemoji.png",
     description:
       "20% of participants had a frustrating donation experience because the website wasn't clear on where they should click to start the donation process",
   },
