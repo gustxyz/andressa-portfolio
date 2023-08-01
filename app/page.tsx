@@ -21,9 +21,9 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/project_card_1.png"
-          contentTitle="An straightforward Payment Form"
-          contentParagraph="The end to end creation of a functional payment/donation form. From UX research to the product design prototype"
+          imagePath="/images/v2_mockup_seattle_dogs.png"
+          contentTitle="Seattle Dogs, a Re-design"
+          contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
           contentAnchor="my-work/seattle-dogs"
           color="yellow"
           direction="left"
@@ -33,8 +33,8 @@ export default function Home() {
       <Container>
         <Card
           imagePath="/images/payment_mockup.png"
-          contentTitle="Seattle Dogs Website Re-design"
-          contentParagraph="The challenge of redesigning an intuitive website so the users can feel trust with the organization."
+          contentTitle="A Straightforward Payment Form"
+          contentParagraph="Improving the way users make donations, the end to end creation of a seamless web donation experience that puts users concerns at ease."
           contentAnchor="my-work/seattle-dogs"
           color="white"
           direction="right"
