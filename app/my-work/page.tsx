@@ -29,7 +29,7 @@ export default function Home() {
           contentTitle="Re-design Seattle Dogs"
           contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
           contentAnchor="my-work/seattle-dogs"
-          color="white"
+          color="yellow"
           direction="left"
         />
       </Container>
