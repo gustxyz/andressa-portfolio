@@ -178,7 +178,7 @@ const InsightsDescription = (
     and videos, pages with helpful informations and a form of contact available.{" "}
   </>
 );
-const InsightsImgPath = "/images/seattledogs_loop_picture.pngg";
+const InsightsImgPath = "/images/seattledogs_loop_picture.png";
 
 //NAVIGATION
 const NavigationTitle = "The navigation flow";
