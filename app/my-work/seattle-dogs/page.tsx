@@ -150,8 +150,10 @@ const CompetitorAnalysisDescription = (
     multiple pages about the organization is easily accessible through the
     navigation menu bar. Heavy use of pictures is also present, giving to the
     user multiple visual information at once: informing past-activities, where
-    the donation is going towards and if it’s real or not. By conducting
-    competitor analysis, I was also able to identify key information about
+    the donation is going towards and if it’s real or not. After analyzing the website,
+    I divided post-its in 3 sections:<b> Navigation Flow, Positive/Trust Building 
+    and Not Positive.</b> By conducting
+    competitor analysis, I was able to identify key information about
     preliminary UI designs, how to avoid functionality that is not useful and
     consider design patterns and trends.
   </>
@@ -176,7 +178,7 @@ const InsightsDescription = (
     and videos, pages with helpful informations and a form of contact available.{" "}
   </>
 );
-const InsightsImgPath = "/images/research-img.png";
+const InsightsImgPath = "/images/seattledogs_loop_picture.pngg";
 
 //NAVIGATION
 const NavigationTitle = "The navigation flow";
