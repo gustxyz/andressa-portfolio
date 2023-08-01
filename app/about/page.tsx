@@ -285,7 +285,7 @@ export default function About() {
             </p>
             <Link
               href="/contact-me"
-              className="bg-[var(--yellow)] p-3 rounded-lg font-size-regular font-bold"
+              className="bg-[var(--yellow)] p-3 rounded-lg font-size-regular font-regular"
             >
               CONTACT ME
             </Link>
