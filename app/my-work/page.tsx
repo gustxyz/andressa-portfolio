@@ -27,7 +27,7 @@ export default function Home() {
         <Card
           imagePath="/images/v2_mockup_seattle_dogs.png"
           contentTitle="Seattle Dogs
-          <br>
+      
           Re-design"
           contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
           contentAnchor="my-work/seattle-dogs"
