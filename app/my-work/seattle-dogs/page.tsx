@@ -249,7 +249,7 @@ const PrototypesDescription = (
 const PrototypeInteractive =
   "Bellow, you can navigate through the desktop interactive prototype I created";
 
-const PrototypeInteractiveImgPath = "/images/research-img.png";
+const PrototypeInteractiveImgPath = "<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F65f8qy036va020Zlbv68d9%2FSeattle-Dogs%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D112-221%26viewport%3D687%252C-257%252C0.04%26t%3DSgbtPKZNp98ZCyZ3-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D194%253A217%26mode%3Ddesign" allowfullscreen></iframe>";
 
 const PrototypeInteractive2 =
   "Bellow, you can navigate through the desktop interactive prototype I created";
