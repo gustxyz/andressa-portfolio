@@ -273,7 +273,7 @@ const FinalThoughts2Description = (
     I’m looking forward to work on now is the donation page, which is the next
     step process for a complete non-profit website. Donation is important and
     having a functional donation payment form is beyond necessary for the
-    website.
+    website You can find the case study for the payment form here.
   </>
 );
 
