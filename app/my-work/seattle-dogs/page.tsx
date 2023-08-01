@@ -85,7 +85,7 @@ const ContentBlock3Description = (
 );
 
 //WILL WIDTH IMAGE
-const FullWidthProjectImgPath = "/images/project_card_1.png";
+const FullWidthProjectImgPath = "/images/homepagehghfidelity.png";
 
 //RESEARCH
 const ResearchTitle = "The Research";
