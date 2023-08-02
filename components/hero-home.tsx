@@ -32,7 +32,7 @@ export default function HeroHome() {
                     height={54}
                   />
                 </a>
-                <a href={"#"} target="_blank" rel="noopener noreferrer">
+                <a href={"the link goes here"} target="_blank" rel="noopener noreferrer">
                   <img
                     src={"/images/linkedin_icon.png"}
                     alt={"LinkedIn"}
