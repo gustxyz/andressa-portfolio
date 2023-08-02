@@ -555,6 +555,7 @@ export default function WorkPage() {
       </FullContainer>
       <FullContainer className="bg-[color:var(--grey-white)]">
         <Container className="py-16 min-h-[500px]">
+          
           <div className="text-center ">
             <WorkPageContentBlock
               className="lg:w-[70%] mx-auto"
@@ -613,7 +614,8 @@ export default function WorkPage() {
           <p className="lg:w-[70%] mx-auto text-center  my-8 font-size-large-extra-large font-bold">
             {PrototypeInteractive}
           </p>
-          <img className="w-full h-[402px]" src={PrototypeInteractiveImgPath} />
+          {/* <img className="w-full h-[402px]" src={PrototypeInteractiveImgPath} /> */}
+          <iframe className="w-full h-[402px]"  style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F65f8qy036va020Zlbv68d9%2FSeattle-Dogs%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D112-221%26viewport%3D687%252C-257%252C0.04%26t%3DSgbtPKZNp98ZCyZ3-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D194%253A217%26mode%3Ddesign" allowFullScreen></iframe>
           <p className="lg:w-[70%] mx-auto text-center  my-8 pb-2 font-size-large-extra-large font-bold">
             {PrototypeInteractive2}
           </p>
