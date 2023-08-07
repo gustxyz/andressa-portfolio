@@ -23,7 +23,7 @@ const HeroImgPath = "/images/headerseattledogs.png";
 const projectStats: ProjectStats[] = [
   {
     title: "ROLE",
-    description: "UX/UI Design, Prototypingg",
+    description: "UX/UI Design, Prototyping",
   },
   {
     title: "TOOLS",
@@ -178,7 +178,7 @@ const InsightsDescription = (
     and videos, pages with helpful informations and a form of contact available.{" "}
   </>
 );
-const InsightsImgPath = "/images/loop.png";
+const InsightsImgPath = "/images/teste.png";
 
 //NAVIGATION
 const NavigationTitle = "The navigation flow";
