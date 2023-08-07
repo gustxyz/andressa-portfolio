@@ -18,7 +18,7 @@ import FullContainer from "@/components/FullContainer";
 const HeroTitle = "Seattle Dogs";
 const HeroDescription =
   "Sole UX & UI Designer: The process of re-designing an entire website to help users build trust with the organization.";
-const HeroImgPath = "/images/headerseattledogs.png";
+const HeroImgPath = "/images/v2_mockup_seattle_dogs.png";
 
 const projectStats: ProjectStats[] = [
   {
