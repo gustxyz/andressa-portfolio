@@ -23,7 +23,7 @@ const HeroImgPath = "/images/headerseattledogs.png";
 const projectStats: ProjectStats[] = [
   {
     title: "ROLE",
-    description: "UX/UI Design, Prototyping",
+    description: "UX/UI Design, Prototypingg",
   },
   {
     title: "TOOLS",
