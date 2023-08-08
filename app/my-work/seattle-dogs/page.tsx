@@ -60,9 +60,9 @@ const ContentBlock2Description = (
     organization.
     <br />
     <br />
-    The challenge was to discover what influences the users to navigate the
-    website, what kind of information they’re looking for and what motivates
-    them to donate online."
+    The challenge was to discover what influences the users to navigate throught the
+    website, what kind of information they’re looking for, and what motivates
+    them to donate online.
   </>
 );
 
