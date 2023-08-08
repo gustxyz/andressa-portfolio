@@ -551,7 +551,7 @@ export default function WorkPage() {
           <img className="w-full" src={NavigationImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--grey-white)]">
+      <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           
           <div className="text-center ">
@@ -598,7 +598,7 @@ export default function WorkPage() {
           <img className="w-full h-[576px]" src={SketchImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg[color:var(--grey-white)]">
+      <FullContainer className="bg[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock
