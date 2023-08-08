@@ -186,10 +186,13 @@ const NavigationDescription = (
   <>
     From the data I collected, I was able to decide what actions and features
     were crucial and beneficial for the website navigation and designed a
-    sitemap with the most natural and fluid experience for users.
+    sitemap around these conclusions. Emphasis was put on information
+    architecture to create the most natural and fluid experience for users, by
+    separating information and actions.
   </>
 );
 
+const NavigationImgPath1 = "/images/action_information.png";
 const NavigationImgPath2 = "/images/sitemap.png";
 
 //Navigation Improvement
@@ -237,7 +240,7 @@ const PrototypesDescription = (
     <br />
     <br />
     <br />
-    For the Prototype, Cards and Accordion were used for better use of space and
+    For thee Prototype, Cards and Accordion were used for better use of space and
     navigation flow. Interactive buttons and pictures allows direct
     communication with the user and send the necessary commands to achieve the
     “click” goal.
@@ -597,7 +600,7 @@ export default function WorkPage() {
           <img className="w-full h-[576px]" src={SketchImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--grey-white)]">
+      <FullContainer className="bg[color:var(--grey-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock
