@@ -178,7 +178,7 @@ const InsightsDescription = (
     and videos, pages with helpful informations and a form of contact available.{" "}
   </>
 );
-const InsightsImgPath = "/images/test.png";
+const InsightsImgPath = "/images/insightspicture.png";
 
 //NAVIGATION
 const NavigationTitle = "Site Map";
@@ -548,7 +548,7 @@ export default function WorkPage() {
             </WorkPageContentBlock>
           </div>
           
-          <img className="w-full h-[576px]" src={NavigationImgPath2} />
+          <img className="w-full" src={NavigationImgPath2} />
         </Container>
       </FullContainer>
       <FullContainer className="bg-[color:var(--grey-white)]">
