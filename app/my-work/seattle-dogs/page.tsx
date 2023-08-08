@@ -534,7 +534,7 @@ export default function WorkPage() {
               {InsightsDescription}
             </WorkPageContentBlock>
           </div>
-          <img height="764" src={InsightsImgPath} />
+          <img className="mx-auto" height="764" src={InsightsImgPath} />
         </Container>
       </FullContainer>
       <FullContainer className="bg-white">
@@ -598,7 +598,7 @@ export default function WorkPage() {
           <img className="w-full h-[576px]" src={SketchImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg[color:var(--off-white)]">
+      <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock

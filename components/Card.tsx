@@ -35,6 +35,7 @@ interface CardProps {
 const getColor = (color: string) => {
   if (color === "yellow") return "bg-[color:var(--yellow)]";
   else if (color === "white") return "bg-white";
+  else if (color === "green") return "bg-[color:var(--green)]";
   return null;
 };
 

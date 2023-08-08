@@ -27,8 +27,10 @@ body {
   --primary-font: "Montserrat";
   --secondary-font: "Nunito";
   --grey-white: #fbfbfb;
+  --green: #8BBB8C;
   background: var(--off-black);
 }
+
 
 .primary-font {
   font-family: var(--primary-font);
