@@ -192,7 +192,7 @@ const NavigationDescription = (
   </>
 );
 
-const NavigationImgPath1 = "/images/action_information.png";
+const NavigationImgPath1 = "/images/research-img.png";
 const NavigationImgPath2 = "/images/research-img.png";
 
 //Navigation Improvement
@@ -539,7 +539,7 @@ export default function WorkPage() {
           <img className="w-full h-[576px]" src={InsightsImgPath} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--off-white)]">
+      <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center ">
             <WorkPageContentBlock
