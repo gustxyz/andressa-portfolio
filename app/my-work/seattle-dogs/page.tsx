@@ -238,7 +238,7 @@ const PrototypesDescription = (
     <br />
     <br />
     <br />
-    For thee Prototype, Cards and Accordion were used for better use of space and
+    Cards and Accordion were used for better use of space and
     navigation flow. Interactive buttons and pictures allows direct
     communication with the user and send the necessary commands to achieve the
     “click” goal.
