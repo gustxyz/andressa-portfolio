@@ -536,7 +536,7 @@ export default function WorkPage() {
               {InsightsDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="w-full h-[253px]" src={InsightsImgPath} />
+          <img className="w-full h-[576px]" src={InsightsImgPath} />
         </Container>
       </FullContainer>
       <FullContainer className="bg-[color:var(--off-white)]">
