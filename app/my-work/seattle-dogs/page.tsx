@@ -192,7 +192,7 @@ const NavigationDescription = (
 );
 
 
-const NavigationImgPath2 = "/images/sitemap.png";
+const NavigationImgPath2 = "/images/seattledogssitemap.png";
 
 //Navigation Improvement
 const NavigationImprovementTitle = "Navigation Improvement";
