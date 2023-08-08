@@ -225,7 +225,7 @@ const SketchesAndWireframesDescription = (
 );
 
 const SketchImgPath1 = "/images/research-img.png";
-const SketchImgPath2 = "/images/wireframes.png";
+const SketchImgPath2 = "/images/wireframiess.png";
 
 const PrototypesTitle = "High-Fidelity Wireframes & Prototype";
 const PrototypesDescription = (
@@ -595,7 +595,7 @@ export default function WorkPage() {
             early tests and discover changes before I start building the high
             fidelity prototype.{" "}
           </p>
-          <img className="w-full h-[576px]" src={SketchImgPath2} />
+          <img className="w-full" src={SketchImgPath2} />
         </Container>
       </FullContainer>
       <FullContainer className="bg-[color:var(--off-white)]">
