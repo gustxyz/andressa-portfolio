@@ -181,7 +181,7 @@ const InsightsDescription = (
 const InsightsImgPath = "/images/teste.png";
 
 //NAVIGATION
-const NavigationTitle = "The navigation flow";
+const NavigationTitle = "Site Map";
 const NavigationDescription = (
   <>
     From the data I collected, I was able to decide what actions and features
@@ -193,7 +193,7 @@ const NavigationDescription = (
 );
 
 const NavigationImgPath1 = "/images/action_information.png";
-const NavigationImgPath2 = "/images/research-img.png";
+const NavigationImgPath2 = "/images/sitemap.png";
 
 //Navigation Improvement
 const NavigationImprovementTitle = "Navigation Improvement";
