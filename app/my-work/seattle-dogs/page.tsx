@@ -600,7 +600,7 @@ export default function WorkPage() {
           <img className="w-full h-[576px]" src={SketchImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-white">
+      <FullContainer className="bg-[color:var(--grey-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock
