@@ -186,13 +186,11 @@ const NavigationDescription = (
   <>
     From the data I collected, I was able to decide what actions and features
     were crucial and beneficial for the website navigation and designed a
-    sitemap around these conclusions. Emphasis was put on information
-    architecture to create the most natural and fluid experience for users, by
-    separating information and actions.
+    fluid sitemap experience for users.
   </>
 );
 
-const NavigationImgPath1 = "/images/action_information.png";
+
 const NavigationImgPath2 = "/images/sitemap.png";
 
 //Navigation Improvement
@@ -549,7 +547,7 @@ export default function WorkPage() {
               {NavigationDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="w-full h-[576px] mb-8" src={NavigationImgPath1} />
+          
           <img className="w-full h-[576px]" src={NavigationImgPath2} />
         </Container>
       </FullContainer>
