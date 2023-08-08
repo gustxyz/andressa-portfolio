@@ -211,7 +211,7 @@ const NavigationImprovementContent2Title = "Forms";
 const NavigationImprovementContent2Description =
   "Similar change was made with the Forms page from the old website version. Instead of having an exclusive page for it, the forms were distributed in their proper pages. For example, the Volunteer form now is found in the Volunteer page, Foster form in the Foster page and so on. That way, the user have all information needed in one page instead of going to a different page to find the form they’re looking for.";
 
-const NavigationImprovementImgPath1 = "/images/audiovideo.gif";
+const NavigationImprovementImgPath1 = "/images/research-img.png";
 const NavigationImprovementImgPath2 = "/images/research-img.png";
 
 //Sketches and Wireframes
@@ -534,7 +534,7 @@ export default function WorkPage() {
               {InsightsDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="w-full" src={InsightsImgPath} />
+          <img height="764" src={InsightsImgPath} />
         </Container>
       </FullContainer>
       <FullContainer className="bg-white">
