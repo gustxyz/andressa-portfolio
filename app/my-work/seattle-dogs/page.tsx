@@ -175,7 +175,8 @@ const InsightsDescription = (
     data showed that users feel more confident donating when they feel closer to
     or moved by the cause they’re helping, by having a good and direct
     communication with the organization. That can be achieved through pictures
-    and videos, pages with helpful informations and a form of contact available.{" "}
+    and videos, pages with helpful informations and a form of contact available. Basically, it's a loop: The organization gives information, build trust with the user who donates, 
+    helping the organization, and the loops go on. {" "}
   </>
 );
 const InsightsImgPath = "/images/looping.png";
