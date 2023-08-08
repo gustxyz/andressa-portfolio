@@ -43,7 +43,7 @@ const projectStats: ProjectStats[] = [
 const ContentBlock1Title = "The project";
 const ContentBlock1Description = (
   <>
-    Seattle Dogs Homeless Program is a WA State nonprofit that helps dog owners
+    PorraSeattle Dogs Homeless Program is a WA State nonprofit that helps dog owners
     suffering from homelessness in Seattle. They offer food, supplies, vet care
     and boarding program. The impact caused by this program not only affects the
     lives of the unhoused owners, but also the lives of these animals too. It's
