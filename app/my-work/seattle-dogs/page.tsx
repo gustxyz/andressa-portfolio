@@ -192,7 +192,7 @@ const NavigationDescription = (
   </>
 );
 
-const NavigationImgPath1 = "/images/research-img.png";
+const NavigationImgPath1 = "/images/action_information.png";
 const NavigationImgPath2 = "/images/research-img.png";
 
 //Navigation Improvement
