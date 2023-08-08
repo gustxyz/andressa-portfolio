@@ -225,7 +225,7 @@ const SketchesAndWireframesDescription = (
 );
 
 const SketchImgPath1 = "/images/research-img.png";
-const SketchImgPath2 = "/images/wireframies-ok.png";
+const SketchImgPath2 = "/images/wireframies-okay.png";
 
 const PrototypesTitle = "High-Fidelity Wireframes & Prototype";
 const PrototypesDescription = (
