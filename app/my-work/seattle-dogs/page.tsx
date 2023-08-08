@@ -178,7 +178,7 @@ const InsightsDescription = (
     and videos, pages with helpful informations and a form of contact available.{" "}
   </>
 );
-const InsightsImgPath = "/images/teste.png";
+const InsightsImgPath = "/images/test.png";
 
 //NAVIGATION
 const NavigationTitle = "Site Map";
