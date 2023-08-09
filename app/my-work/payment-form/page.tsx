@@ -15,10 +15,10 @@ import FullContainer from "@/components/FullContainer";
  **/
 
 //HERO
-const HeroTitle = "Seattle Dogs";
+const HeroTitle = "Improving the donation experience";
 const HeroDescription =
-  "Sole UX & UI Designer: The process of re-designing an entire website to help users build trust with the organization.";
-const HeroImgPath = "/images/project_card_1.png";
+  "As a sole UX & UI Designer, I created a seamless payment experience that puts user concerns at ease.";
+const HeroImgPath = "/images/payment_mockup.png";
 
 const projectStats: ProjectStats[] = [
   {
@@ -27,7 +27,7 @@ const projectStats: ProjectStats[] = [
   },
   {
     title: "TOOLS",
-    description: "Figma, Zoom, Photoshop",
+    description: "Figma, Google Form, Photoshop",
   },
   {
     title: "PLATFORM",
@@ -35,7 +35,7 @@ const projectStats: ProjectStats[] = [
   },
   {
     title: "DURATION",
-    description: "6 months",
+    description: "3 weeks",
   },
 ];
 
@@ -43,26 +43,26 @@ const projectStats: ProjectStats[] = [
 const ContentBlock1Title = "The project";
 const ContentBlock1Description = (
   <>
-    Seattle Dogs Homeless Program is a WA State nonprofit that helps dog owners
-    suffering from homelessness in Seattle. They offer food, supplies, vet care
-    and boarding program. The impact caused by this program not only affects the
-    lives of the unhoused owners, but also the lives of these animals too. It's
-    a double win!
+    Seattle Dogs Homeless Program is a WA State nonprofit that helps dog owners suffering 
+    from homelessness in Seattle. They offer food, supplies, vet care and boarding program. 
+    The impact caused by this program not only affects the lives of the unhoused owners, 
+    but also the lives of these animals too. 
+    <br />
+    To keep helping pets and their owners, they rely 100% on donations.
+
+
+
   </>
 );
 
-const ContentBlock2Title = "Problem";
+const ContentBlock2Title = "Challenge";
 const ContentBlock2Description = (
   <>
     {" "}
-    The current website is underdeveloped and does not allow the users to
-    navigate easily, making it difficult for them to have information about the
-    organization.
-    <br />
-    <br />
-    The challenge was to discover what influences the users to navigate the
-    website, what kind of information they’re looking for and what motivates
-    them to donate online."
+    The biggest challenge was to understand the true pain points users encounter during the payment 
+    form process and design an intuitive and efficient payment form that not only addresses these pain points, 
+    but leaves users satisfied at every step of their transaction, building their trust with the organization.
+  
   </>
 );
 
@@ -70,16 +70,22 @@ const ContentBlock3Title = "Solution";
 const ContentBlock3Description = (
   <>
     {" "}
-    Re-design Seattle Dogs website with the following goals:
+    Based on the research made, the following goals were set: :
     <ul className="list-disc pl-5">
       <li className="pt-5">
-        Improve navigation and function by redesigning all existing pages,
-        Increasing the quality of the website and attracting new and old users.
+      Eliminate unnecessary steps and improve functionality, making it effortless 
+      for users to navigate through the form so it is intuitive and simplistic for users of all ages. 
       </li>
       <li className="pt-5">
-        Create pages with the right information so the user can feel trust and
-        confidence towards the non-profit.
+      For organization transparency, implementation of FAQ accordion in the end of form in case of 
+      common questions and pop-up quotes for specific options.
       </li>
+      <li className="pt-5">
+      In case of monthly donation, option to choose the start date payments. .
+      </li>
+      <br />
+      By prioritizing usability, simplicity, and data protection, my design aims to empower 
+      users with a seamless payment experience that puts their concerns at ease.
     </ul>
   </>
 );
