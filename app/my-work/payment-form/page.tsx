@@ -91,23 +91,24 @@ const ContentBlock3Description = (
 );
 
 //WILL WIDTH IMAGE
-const FullWidthProjectImgPath = "/images/homepagehghfidelity.png";
+const FullWidthProjectImgPath = "/images/paymentformpicture.png";
 
 //RESEARCH
 const ResearchTitle = "The Research";
-const ResearchSubtitle = "Interview and survey";
+const ResearchSubtitle = "Survey and Competitor Analysis";
 const ResearchDescription = (
   <>
-    I conducted <b>interviews</b>, <b>surveys</b> and <b>online research</b> to
-    understand user’s motivations and behaviors. Total of 23 adult participants who had made a donation 
-    before or have interest in donating in the future. 
+    The purpose of the research was to discover how’s the best donation experience and what’s the worst, 
+    the Seattle Dogs users have a lower payment abandonment chance. To start my research, I brainstormed a
+     bunch of questions that could help me understand the users pain points.
+     <br />
+     What form of payment is often used and preferred.
+     Do users prefer a one-page form or steps for payment?
+     What platform do users use more when making a payment?
+     Reasons for checkout abandonment?
+
     <br />
-    Questions like: “What motivates
-    the users to donate and how do they make decisions to do so?” “What
-    information do they need to trust the organization?” was made as an
-    important step to determine which user problems are the most important to
-    solve and why, making it possible to create solutions that address those
-    problems. Throught research, I collected the following data:
+    Knowing the answers for these questions, I’ll be able to design a smooth payment form process for the users. 
   </>
 );
 const researchItems: ResearchItem[] = [
@@ -139,11 +140,10 @@ const researchItems: ResearchItem[] = [
 ];
 const ResearchFootnoteParagraph = (
   <>
-    “Clear communication is essential. I tried to help in the past but they were
-    not very good explaining things or did not have time/people to do this
-    function. It's hard to send money out of state to an organization we find
-    online if we are not able to communicate clearly with the people
-    responsible.”
+    “They defaulted to an amount higher than I was able to give. I am sure they get some people to 
+    give more that way, but it made me feel uncomfortable. I had to reduce the default amount back 
+    to what I planned to donate, which was an icky feeling - especially when I'm doing something 
+    that otherwise makes me happy.”
   </>
 );
 
@@ -151,17 +151,12 @@ const ResearchFootnoteParagraph = (
 const CompetitorAnalysisTitle = "Competitor Analysis";
 const CompetitorAnalysisDescription = (
   <>
-    I analyzed Pets of the Homeless website, a direct competitor that is also
-    trying to solve the same problem as us. Through research, I noticed that
-    multiple pages about the organization is easily accessible through the
-    navigation menu bar. Heavy use of pictures is also present, giving to the
-    user multiple visual information at once: informing past-activities, where
-    the donation is going towards and if it’s real or not. After analyzing the website,
-    I divided post-its in 3 sections:<b> Navigation Flow, Positive/Trust Building 
-    and Not Positive.</b> By conducting
-    competitor analysis, I was able to identify key information about
-    preliminary UI designs, how to avoid functionality that is not useful and
-    consider design patterns and trends.
+    I gathered 6 different competitors to analyze: Peta,Feeding Pets of the Homeless,
+    Do Something, Hotel for Homeless Dogs, Cuddly and WTA. Not all of them is about homelessness or dogs,
+    but the intent here was to analyze donation pages. In my research, I simulated donations in all the websites. 
+    They all had different design patterns and functionality, so this was an important step for the design 
+    process. I was able to collect different helpful functionalities and features to gather all in one donation form. 
+
   </>
 );
 
