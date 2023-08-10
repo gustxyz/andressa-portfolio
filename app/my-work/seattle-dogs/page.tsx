@@ -224,17 +224,16 @@ const NavigationImprovementImgPath1 = "/images/audiovideo.gif";
 const NavigationImprovementImgPath2 = "/images/forms.gif";
 
 //Sketches and Wireframes
-const SketchesAndWireframesTitle = "Sketches and Wireframes";
+const SketchesAndWireframesTitle = "Wireframes";
 const SketchesAndWireframesDescription = (
   <>
-    The next step in my process was creating the sketches. It enables me to
-    examine my ideas before putting everything in the process of digitizing,
+    The next step in my process was creating the wireframes. It enables me to
+    examine my ideas before adding details and more elaborated visuals,
     allowing me to make quick changes and explore my ideas.
   </>
 );
 
-const SketchImgPath1 = "/images/research-img.png";
-const SketchImgPath2 = "/images/wireframies-okay.png";
+const SketchImgPath1 = "/images/wireframies-okay.png";
 
 const PrototypesTitle = "High-Fidelity Wireframes & Prototype";
 const PrototypesDescription = (
@@ -598,11 +597,7 @@ export default function WorkPage() {
             </WorkPageContentBlock>
           </div>
           <img className="w-full h-[576px] " src={SketchImgPath1} />
-          <p className="lg:w-[70%] mx-auto text-center secondary-font font-light my-8">
-            Next, I started to add more details and precisions to the sketches
-            by turning them into mid-fidelity wireframes.{" "}
-          </p>
-          <img className="w-full" src={SketchImgPath2} />
+
         </Container>
       </FullContainer>
       <FullContainer className="bg-[color:var(--off-white)]">
