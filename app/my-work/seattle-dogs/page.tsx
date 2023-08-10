@@ -252,6 +252,10 @@ const PrototypesDescription = (
     “click” goal.
   </>
 );
+
+const PrototypeImgPath = "/images/wireframies-okay.png";
+
+
 const PrototypeInteractive =
   "Bellow, you can navigate through the desktop version of the interactive prototype I created";
 
@@ -610,7 +614,8 @@ export default function WorkPage() {
               {PrototypesDescription}
             </WorkPageContentBlock>
           </div>
-
+          <img className="w-full h-[576px] " src={PrototypeImgPath} />
+          
           <p className="lg:w-[70%] mx-auto text-center  my-8 font-size-large-extra-large font-bold">
             {PrototypeInteractive}
           </p>
