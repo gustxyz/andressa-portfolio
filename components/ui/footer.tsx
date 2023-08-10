@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-row pb-3">
           <a
             className="pr-4"
-            href={"#"}
+            href={"https://www.behance.net/azdalecio"}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ export default function Footer() {
               height={27}
             />
           </a>
-          <a href={"#"} target="_blank" rel="noopener noreferrer">
+          <a href={"https://www.linkedin.com/in/andressadalecio/"} target="_blank" rel="noopener noreferrer">
             <img
               src={"/images/linkedin_white_icon.png"}
               alt={"LinkedIn"}

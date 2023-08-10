@@ -85,7 +85,7 @@ const ContentBlock3Description = (
 );
 
 //WILL WIDTH IMAGE
-const FullWidthProjectImgPath = "/images/homepagehghfidelity.png";
+const FullWidthProjectImgPath = "/images/seattledogshomepagedouble.png";
 
 //RESEARCH
 const ResearchTitle = "The Research";
@@ -96,9 +96,15 @@ const ResearchDescription = (
     understand user’s motivations and behaviors. Total of 23 adult participants who had made a donation 
     before or have interest in donating in the future. 
     <br />
-    Questions like: “What motivates
-    the users to donate and how do they make decisions to do so?” “What
-    information do they need to trust the organization?” was made as an
+    The two main questions were: 
+    <br />
+    “What motivates
+    the users to donate and how do they make decisions to do so?” 
+    <br />
+    “What
+    information do they need to trust the organization?” 
+    <br />
+    Those questions were made as an
     important step to determine which user problems are the most important to
     solve and why, making it possible to create solutions that address those
     problems. Throught research, I collected the following data:
@@ -118,17 +124,17 @@ const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/smile_emoji.png",
     description:
-      "25% of participants feel encouraged to donate if there’s a possibility of talking with the founder",
+      "25% of participants feel encouraged to donate if there’s a possibility of talking with the founder.",
   },
   {
     imgPath: "/images/sad-emoji.png",
     description:
-      "The participants who’ve never donated before have never found an organization they truly trust",
+      "The participants who’ve never donated before have never found an organization they truly trust.",
   },
   {
     imgPath: "/images/frustraded-emoji.png",
     description:
-      "20% of participants had a frustrating donation experience because the website wasn't clear on where they should click to start the donation process",
+      "20% of participants had a frustrating donation experience because the website wasn't clear on where they should click to start the donation process.",
   },
 ];
 const ResearchFootnoteParagraph = (
@@ -152,7 +158,9 @@ const CompetitorAnalysisDescription = (
     user multiple visual information at once: informing past-activities, where
     the donation is going towards and if it’s real or not. After analyzing the website,
     I divided post-its in 3 sections:<b> Navigation Flow, Positive/Trust Building 
-    and Not Positive.</b> By conducting
+    and Not Positive.</b> 
+    <br />
+    By conducting
     competitor analysis, I was able to identify key information about
     preliminary UI designs, how to avoid functionality that is not useful and
     consider design patterns and trends.
@@ -274,7 +282,7 @@ const FinalThoughts2Description = (
     I’m looking forward to work on now is the donation page, which is the next
     step process for a complete non-profit website. Donation is important and
     having a functional donation payment form is beyond necessary for the
-    website You can find the case study for the payment form here.
+    website. You can find the case study for the payment form <a className="underline" href="/my-work/payment-form"> here.</a>
   </>
 );
 
@@ -592,9 +600,7 @@ export default function WorkPage() {
           <img className="w-full h-[576px] " src={SketchImgPath1} />
           <p className="lg:w-[70%] mx-auto text-center secondary-font font-light my-8">
             Next, I started to add more details and precisions to the sketches
-            by turning them into mid-fidelity wireframes. With that, I can run
-            early tests and discover changes before I start building the high
-            fidelity prototype.{" "}
+            by turning them into mid-fidelity wireframes.{" "}
           </p>
           <img className="w-full" src={SketchImgPath2} />
         </Container>
