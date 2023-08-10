@@ -14,7 +14,7 @@ export default function HeroHome() {
             <div className="w-full lg:w-1/2">
               <h2 className="hero-hello">Hello!</h2>
               <p className="hero-copy ">
-                I'm a <b>UX/UI Designer</b> based in Seattle, WA who <b>create solutions</b> that prioritize real users by focusing
+                I'm a <b>UX/UI Designer</b> based in Seattle, WA who <b> create solutions</b> that prioritize real users by focusing
                 on <b>accessibility</b>
               </p>
               <div className="flex flex-row">
