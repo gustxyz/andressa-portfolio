@@ -26,7 +26,7 @@ export default function Home() {
       <Container>
         <Card
           imagePath="/images/v2_mockup_seattle_dogs.png"
-          contentTitle="Seattle Dogs, a Re-design"
+          contentTitle="Seattle Dogs, a Re-Design"
           contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
           contentAnchor="my-work/seattle-dogs"
           color="yellow"
@@ -47,9 +47,12 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/payment_mockup.png"
-          contentTitle="A Straightforward Payment Form"
-          contentParagraph="Improving the way users make donations, the end to end creation of a seamless web donation experience that puts users concerns at ease."
+          imagePath="/images/qblt_meeting.jpeg"
+          contentTitle="AI Grammar and Writing Tool"
+          contentParagraph="Contributed in the Company's design session to review a number of concepts for the design team
+          <br />
+          
+          COMING SOON."
           contentAnchor="my-work/seattle-dogs"
           color="green"
           direction="left"
