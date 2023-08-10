@@ -253,13 +253,12 @@ const PrototypesDescription = (
   </>
 );
 
-const PrototypeImgPath = "/images/wireframies-okay.png";
+const PrototypeImgPath = "/images/highfidelity-seattledogs-pages.png";
 
 
 const PrototypeInteractive =
   "Bellow, you can navigate through the desktop version of the interactive prototype I created";
 
-const PrototypeInteractiveImgPath = "/images/research-img.png"; 
 
 const PrototypeInteractive2 =
   <>For mobile prototype, you can navigate <a href="https://www.figma.com/proto/65f8qy036va020Zlbv68d9/Seattle-Dogs?page-id=462%3A1846&type=design&node-id=341-987&viewport=1066%2C-578%2C0.12&t=6H7jH8oC4WF6Vlhh-1&scaling=min-zoom&starting-point-node-id=418%3A2710&mode=design"><u>clicking here</u> </a>  </>;
@@ -546,7 +545,7 @@ export default function WorkPage() {
               {InsightsDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="mx-auto" height="564" src={InsightsImgPath} />
+          <img className="mx-auto" width="750" src={InsightsImgPath} />
         </Container>
       </FullContainer>
       <FullContainer className="bg-white">
