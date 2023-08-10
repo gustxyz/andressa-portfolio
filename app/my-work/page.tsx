@@ -47,7 +47,7 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/qbltpicturecard.png"
+          imagePath="/images/meetingpicture.png"
           contentTitle="AI Grammar and Writing Tool"
           contentParagraph="Contributed in the Company's design session to review a number of concepts for the design team. COMING SOON. "
           contentAnchor="my-work/seattle-dogs"
