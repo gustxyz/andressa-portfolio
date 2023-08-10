@@ -160,6 +160,7 @@ const CompetitorAnalysisDescription = (
     I divided post-its in 3 sections:<b> Navigation Flow, Positive/Trust Building 
     and Not Positive.</b> 
     <br />
+    <br />
     By conducting
     competitor analysis, I was able to identify key information about
     preliminary UI designs, how to avoid functionality that is not useful and
