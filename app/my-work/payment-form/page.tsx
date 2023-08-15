@@ -112,17 +112,17 @@ const ResearchDescription = (
 
 const researchItems: ResearchItem[] = [
   {
-    imgPath: "/images/icon-people.png",
+    imgPath: "/images/icon-100.png",
     description:
       "100% participants made a donation before.",
   },
   {
-    imgPath: "/images/thumbsup_emoji.png",
+    imgPath: "/images/icon-phone.png",
     description:
       "53% participants used desktop device, 29% used mobile and 18% used both.",
   },
   {
-    imgPath: "/images/smile_emoji.png",
+    imgPath: "/images/icon-creditcard.png",
     description:
       "62% participants prefers credit card as donation platform.",
   },
@@ -132,7 +132,7 @@ const researchItems: ResearchItem[] = [
       "81% prefers to have all the required information (name, address, card information) presented on a single page, instead of a multiple page step-by-step approach where each section is displayed as you fill it up.",
   },
   {
-    imgPath: "/images/frustraded-emoji.png",
+    imgPath: "/images/icon-frustrated.png",
     description:
       "42% doesn’t like that the website required them to create an account.",
   },
