@@ -127,7 +127,7 @@ const researchItems: ResearchItem[] = [
       "62% participants prefers credit card as donation platform.",
   },
   {
-    imgPath: "/images/sad-emoji.png",
+    imgPath: "/images/icon-thumbsup.png",
     description:
       "81% prefers to have all the required information (name, address, card information) presented on a single page, instead of a multiple page step-by-step approach where each section is displayed as you fill it up.",
   },
