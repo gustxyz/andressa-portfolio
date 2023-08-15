@@ -17,7 +17,7 @@ import FullContainer from "@/components/FullContainer";
 //HERO
 const HeroTitle = "Improving the donation experience";
 const HeroDescription =
-  "As a sole UX & UI Designer, I created a seamless payment experience that puts user concerns at ease.";
+  "As a sole UX & UI Designer, I created a seamless payment experience that puts user concerns at ease..";
 const HeroImgPath = "/images/payment_mockup.png";
 
 const projectStats: ProjectStats[] = [
@@ -81,7 +81,7 @@ const ContentBlock3Description = (
       common questions and pop-up quotes for specific options.
       </li>
       <li className="pt-5">
-      In case of monthly donation, option to choose the start date payments. .
+      In case of monthly donation, option to choose the start date payments.
       </li>
       <br />
       By prioritizing usability, simplicity, and data protection, my design aims to empower 
@@ -94,58 +94,25 @@ const ContentBlock3Description = (
 const FullWidthProjectImgPath = "/images/paymentformpicture.png";
 
 //RESEARCH
-const ContentBlockResearch = "The Research";
-const ContentBlockResearchDescription = (
-  <>
-    The purpose of the research was to discover how’s the best donation experience and what’s 
-    the worst, the Seattle Dogs users have a lower payment abandonment chance. To start my research, 
-    I brainstormed a bunch of questions that could help me understand the users pain points. 
-    <br />
-    <br />
-    What form of payment is often used and preferred?
-    <br />
-    Do users prefer a one-page form or steps for payment?
-    <br />
-    What platform do users use more when making a payment?
-    <br />
-    What are the reasons for checkout abandonment?
-    <br />
-    Knowing the answers for these questions, I’ll be able to design a smooth payment form process for the users.
-  </>
-);
-
-const BaymardResearchTitle = "The Step One";
-const BaymardResearchDescription = (
-  <>
-    To not start from zero, I did research on cart abandonment rate and I found this quantitate research
-    made in 2021 by Baymard Institute (you can find the full Baymard research here). With that, I gathered bullet 
-    points from the research to build my own survey. 
-
-  </>
-);
-
-const BaymardResearchImgPath1 = "/images/image_board.jpg";
-const BaymardResearchImgPath2 = "/images/image_notpositive.jpg";
-const BaymardResearchImgPath3 = "/images/image_positive.jpg";
-const BaymardResearchImgPath4 = "/images/afterlightImage.jpg";
-
-
-const ResearchTitle = "What do users think about donation forms?";
+const ResearchTitle = "What do users think about payment forms?";
 const ResearchSubtitle = "Survey made with 21 participants";
 const ResearchDescription = (
   <>
-    From the data collected above, I was able to continue and create a survey to 
-    collect more quantative data. The survey had an extra step for those who already 
-    had donated before, so I can understand pain points from people who had a donation experience before. 
-    This survey had a total of 21 participants. 
-   
+    First, I did research on cart abandonment rate and I found this quantitate research made in 
+    2021 by Baymard Institute (you can find the full Baymard research here). With that, 
+    I gathered bullet points from the research to build my own survey. 
+    <br />
+    From the data collected I was able to continue and create a survey to gather
+    more donatipon specifically quantative data. The survey had an extra step for those who already had 
+    donated before, so I can understand pain points from people who had a donation experience before. 
+
   </>
 );
 const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/sad2_emoji.png",
     description:
-      "100% participants made a donation before",
+      "100% participants made a donation before.",
   },
   {
     imgPath: "/images/thumbsup_emoji.png",
@@ -155,7 +122,7 @@ const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/smile_emoji.png",
     description:
-      "62% participants prefers credit card as donation platform",
+      "62% participants prefers credit card as donation platform.",
   },
   {
     imgPath: "/images/sad-emoji.png",
@@ -177,14 +144,23 @@ const ResearchFootnoteParagraph = (
     that otherwise makes me happy.”
   </>
 );
-const ResearchFootnoteAuthor = "— Quote from a user's survey";
+
+//HOW MIGHT WE
+const HowMightWeTitle = "How Might We";
+const HowMightWeDescription = (
+  <>
+    After collecting all the data from the survey, I gather the pain points and started 
+    to work on solutions with the How Might We method. {" "}
+  </>
+);
+const HowMightWeImgPath = "/images/looping.png";
 
 //Competitor Analysis
 const CompetitorAnalysisTitle = "Competitor Analysis";
 const CompetitorAnalysisDescription = (
   <>
-    I gathered 6 different competitors to analyze: Feeding Pets of the Homeless,
-    Do Something, Hotel for Homeless Dogs, Cuddly, GoFundMe and WTA. Not all of them is about homelessness or dogs,
+    I gathered 4 different competitors to analyze: Feeding Pets of the Homeless,
+    Do Something, Hotel for Homeless Dogs, GoFundMe. Not all of them is about homelessness or dogs,
     but the intent here was to analyze specificaly the donation pages. In my research, I simulated donations in all the websites. 
     They all had different design patterns and functionality, so this was an important step for the design 
     process. I was able to collect different helpful functionalities and features to gather all in one donation form. 
@@ -197,35 +173,22 @@ const CompetitorImgPath2 = "/images/image_notpositive.jpg";
 const CompetitorImgPath3 = "/images/image_positive.jpg";
 const CompetitorImgPath4 = "/images/afterlightImage.jpg";
 
+const ResearchFootnoteAuthor = "— Quote from a user's survey";
 
-//INSIGHTS
-const InsightsTitle = "Insights";
-const InsightsDescription = (
-  <>
-    Either the business and the user wants the same thing: to build trust. <b>Trust
-    and transparency are important values to encourage donations.</b> The research
-    data showed that users feel more confident donating when they feel closer to
-    or moved by the cause they’re helping, by having a good and direct
-    communication with the organization. That can be achieved through pictures
-    and videos, pages with helpful informations and a form of contact available.{" "}
-  </>
-);
-const InsightsImgPath = "/images/loop.png";
+
 
 //NAVIGATION
-const NavigationTitle = "The navigation flow";
+const NavigationTitle = "Site Map";
 const NavigationDescription = (
   <>
     From the data I collected, I was able to decide what actions and features
     were crucial and beneficial for the website navigation and designed a
-    sitemap around these conclusions. Emphasis was put on information
-    architecture to create the most natural and fluid experience for users, by
-    separating information and actions.
+    fluid sitemap experience for users.
   </>
 );
 
-const NavigationImgPath1 = "/images/research-img.png";
-const NavigationImgPath2 = "/images/research-img.png";
+
+const NavigationImgPath2 = "/images/seattledogssitemap.png";
 
 //Navigation Improvement
 const NavigationImprovementTitle = "Navigation Improvement";
@@ -245,21 +208,20 @@ const NavigationImprovementContent2Title = "Forms";
 const NavigationImprovementContent2Description =
   "Similar change was made with the Forms page from the old website version. Instead of having an exclusive page for it, the forms were distributed in their proper pages. For example, the Volunteer form now is found in the Volunteer page, Foster form in the Foster page and so on. That way, the user have all information needed in one page instead of going to a different page to find the form they’re looking for.";
 
-const NavigationImprovementImgPath1 = "/images/research-img.png";
-const NavigationImprovementImgPath2 = "/images/research-img.png";
+const NavigationImprovementImgPath1 = "/images/audiovideo.gif";
+const NavigationImprovementImgPath2 = "/images/forms.gif";
 
 //Sketches and Wireframes
-const SketchesAndWireframesTitle = "Sketches and Wireframes";
+const SketchesAndWireframesTitle = "Wireframes";
 const SketchesAndWireframesDescription = (
   <>
-    The next step in my process was creating the sketches. It enables me to
-    examine my ideas before putting everything in the process of digitizing,
+    The next step in my process was creating the wireframes. It enables me to
+    examine my ideas before adding details and more elaborated visuals,
     allowing me to make quick changes and explore my ideas.
   </>
 );
 
-const SketchImgPath1 = "/images/research-img.png";
-const SketchImgPath2 = "/images/research-img.png";
+const SketchImgPath1 = "/images/wireframies-okay.png";
 
 const PrototypesTitle = "High-Fidelity Wireframes & Prototype";
 const PrototypesDescription = (
@@ -272,19 +234,21 @@ const PrototypesDescription = (
     <br />
     <br />
     <br />
-    For the Prototype, Cards and Accordion were used for better use of space and
+    Cards and Accordion were used for better use of space and
     navigation flow. Interactive buttons and pictures allows direct
     communication with the user and send the necessary commands to achieve the
     “click” goal.
   </>
 );
-const PrototypeInteractive =
-  "Bellow, you can navigate through the desktop interactive prototype I created";
 
-const PrototypeInteractiveImgPath = "/images/research-img.png"; 
+const PrototypeImgPath = "/images/highfidelity-seattledogs-pages.png";
+
+
+const PrototypeInteractive =
+  "Bellow, you can navigate through the desktop version of the interactive prototype I created";
 
 const PrototypeInteractive2 =
-  "Bellow, you can navigate through the desktop interactive prototype I created";
+  <>For mobile prototype, you can navigate <a href="https://www.figma.com/proto/65f8qy036va020Zlbv68d9/Seattle-Dogs?page-id=462%3A1846&type=design&node-id=341-987&viewport=1066%2C-578%2C0.12&t=6H7jH8oC4WF6Vlhh-1&scaling=min-zoom&starting-point-node-id=418%3A2710&mode=design"><u>clicking here</u> </a>  </>;
 
 const FinalThoughts1Title = "Final Thoughts";
 const FinalThoughts1Description = (
@@ -307,7 +271,7 @@ const FinalThoughts2Description = (
     I’m looking forward to work on now is the donation page, which is the next
     step process for a complete non-profit website. Donation is important and
     having a functional donation payment form is beyond necessary for the
-    website You can find the case study for the payment form here.
+    website. You can find the case study for the payment form <a className="underline" href="/my-work/payment-form"> here.</a>
   </>
 );
 
@@ -513,39 +477,7 @@ export default function WorkPage() {
           />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-yellow">
-        <Container className="py-16 min-h-[500px]">
-          <div className="text-center ">
-            <WorkPageContentBlock
-              className="lg:w-[70%] mx-auto"
-              header={ContentBlockResearch}
-            >
-              {ContentBlockResearchDescription}
-            </WorkPageContentBlock>
-          </div>
-        </Container>
-      </FullContainer>
-      <FullContainer className="bg-white">
-        <Container className="py-16 min-h-[500px]">
-          <Row className="" direction="left">
-            <div className="lg:w-1/2 lg:pr-16">
-              <WorkPageContentBlock header={BaymardResearchTitle}>
-                {BaymardResearchDescription}
-              </WorkPageContentBlock>
-            </div>
-            <div className="lg:w-1/2 w-full justify-around">
-              <Row className="pb-4 " direction="left">
-                <img className="w-2/6" src={BaymardResearchImgPath1} />{" "}
-                <img className="w-2/6" src={BaymardResearchImgPath2} />
-              </Row>
-              <Row className="" direction="left">
-                <img className="w-2/6 " src={BaymardResearchImgPath3} />{" "}
-                <img className="w-2/6" src={BaymardResearchImgPath4} />
-              </Row>
-            </div>
-          </Row>
-        </Container>
-      </FullContainer>
+
       <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <Row className="items-baseline" direction="left">
@@ -570,6 +502,19 @@ export default function WorkPage() {
           </div>
         </Container>
       </FullContainer>
+      <FullContainer className="bg-[color:var(--off-white)]">
+        <Container className="py-16 min-h-[500px]">
+          <div className="text-center ">
+            <WorkPageContentBlock
+              className="lg:w-[70%] mx-auto"
+              header={HowMightWeTitle}
+            >
+              {HowMightWeDescription}
+            </WorkPageContentBlock>
+          </div>
+          <img className="mx-auto" width="750" src={HowMightWeImgPath} />
+        </Container>
+      </FullContainer>
       <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           <Row className="" direction="left">
@@ -591,20 +536,7 @@ export default function WorkPage() {
           </Row>
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--off-white)]">
-        <Container className="py-16 min-h-[500px]">
-          <div className="text-center ">
-            <WorkPageContentBlock
-              className="lg:w-[70%] mx-auto"
-              header={InsightsTitle}
-            >
-              {InsightsDescription}
-            </WorkPageContentBlock>
-          </div>
-          <img className="w-full h-[253px]" src={InsightsImgPath} />
-        </Container>
-      </FullContainer>
-      <FullContainer className="bg-[color:var(--off-white)]" children={undefined}>
+      <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center ">
             <WorkPageContentBlock
@@ -614,11 +546,11 @@ export default function WorkPage() {
               {NavigationDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="w-full h-[576px] mb-8" src={NavigationImgPath1} />
-          <img className="w-full h-[576px]" src={NavigationImgPath2} />
+          
+          <img className="w-full" src={NavigationImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--grey-white)]">
+      <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           
           <div className="text-center ">
@@ -656,16 +588,10 @@ export default function WorkPage() {
             </WorkPageContentBlock>
           </div>
           <img className="w-full h-[576px] " src={SketchImgPath1} />
-          <p className="lg:w-[70%] mx-auto text-center secondary-font font-light my-8">
-            Next, I started to add more details and precisions to the sketches
-            by turning them into mid-fidelity wireframes. With that, I can run
-            early tests and discover changes before I start building the high
-            fidelity prototype.{" "}
-          </p>
-          <img className="w-full h-[576px]" src={SketchImgPath2} />
+
         </Container>
       </FullContainer>
-      <FullContainer className="bg-white">
+      <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock
@@ -675,7 +601,8 @@ export default function WorkPage() {
               {PrototypesDescription}
             </WorkPageContentBlock>
           </div>
-
+          <img className="w-full h-[576px] " src={PrototypeImgPath} />
+          
           <p className="lg:w-[70%] mx-auto text-center  my-8 font-size-large-extra-large font-bold">
             {PrototypeInteractive}
           </p>

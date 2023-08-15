@@ -101,8 +101,7 @@ const ResearchDescription = (
     “What motivates
     the users to donate and how do they make decisions to do so?” 
     <br />
-    “What
-    information do they need to trust the organization?” 
+    “What information do they need to trust the organization?” 
     <br />
     Those questions were made as an
     important step to determine which user problems are the most important to
