@@ -99,8 +99,9 @@ const ResearchSubtitle = "Survey made with 21 participants";
 const ResearchDescription = (
   <>
     First, I did research on cart abandonment rate and I found this quantitate research made in 
-    2021 by Baymard Institute (you can find the full Baymard research here). With that, 
+    2021 by Baymard Institute (you can find the full Baymard research <a href="https://baymard.com/lists/cart-abandonment-rate#why-users-abandon-their-cart"><u>here</u> </a>). With that, 
     I gathered bullet points from the research to build my own survey. 
+    <br />
     <br />
     From the data collected I was able to continue and create a survey to gather
     more donatipon specifically quantative data. The survey had an extra step for those who already had 
@@ -108,6 +109,7 @@ const ResearchDescription = (
 
   </>
 );
+
 const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/sad2_emoji.png",
@@ -145,15 +147,7 @@ const ResearchFootnoteParagraph = (
   </>
 );
 
-//HOW MIGHT WE
-const HowMightWeTitle = "How Might We";
-const HowMightWeDescription = (
-  <>
-    After collecting all the data from the survey, I gather the pain points and started 
-    to work on solutions with the How Might We method. {" "}
-  </>
-);
-const HowMightWeImgPath = "/images/looping.png";
+
 
 //Competitor Analysis
 const CompetitorAnalysisTitle = "Competitor Analysis";
@@ -178,12 +172,11 @@ const ResearchFootnoteAuthor = "— Quote from a user's survey";
 
 
 //NAVIGATION
-const NavigationTitle = "Site Map";
+const NavigationTitle = "How Might We";
 const NavigationDescription = (
   <>
-    From the data I collected, I was able to decide what actions and features
-    were crucial and beneficial for the website navigation and designed a
-    fluid sitemap experience for users.
+    After collecting all the data from the survey, 
+    I gather the pain points and started to work on solutions with the How Might We method.
   </>
 );
 
@@ -367,7 +360,7 @@ interface ResearchItem {
 
 const ResearchItem = ({ imgPath, description }: ResearchItem) => {
   return (
-    <Row direction="left">
+    <Row className="mr-auto" direction="left">
       <img src={imgPath}></img>
       <div className="pl-6 font-size-regular-small font-normal">
         {description}
@@ -502,19 +495,7 @@ export default function WorkPage() {
           </div>
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--off-white)]">
-        <Container className="py-16 min-h-[500px]">
-          <div className="text-center ">
-            <WorkPageContentBlock
-              className="lg:w-[70%] mx-auto"
-              header={HowMightWeTitle}
-            >
-              {HowMightWeDescription}
-            </WorkPageContentBlock>
-          </div>
-          <img className="mx-auto" width="750" src={HowMightWeImgPath} />
-        </Container>
-      </FullContainer>
+
       <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           <Row className="" direction="left">
