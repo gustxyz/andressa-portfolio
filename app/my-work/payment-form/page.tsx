@@ -103,16 +103,16 @@ const ResearchDescription = (
     I gathered bullet points from the research to build my own survey. 
     <br />
     <br />
-    From the data collected I was able to continue and create a survey to gather
-    more donatipon specifically quantative data. The survey had an extra step for those who already had 
-    donated before, so I can understand pain points from people who had a donation experience before. 
+    From the data collected I created a survey to gather
+    more information about donatipon specifically and have a quantative data. The survey had an extra step for those who already had 
+    donated before, so I can understand pain points from people who had a donation experience before. The survey had a total of 21 participants, created on Google Forms.
 
   </>
 );
 
 const researchItems: ResearchItem[] = [
   {
-    imgPath: "/images/sad2_emoji.png",
+    imgPath: "/images/icon-people.png",
     description:
       "100% participants made a donation before.",
   },
