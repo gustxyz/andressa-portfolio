@@ -94,48 +94,78 @@ const ContentBlock3Description = (
 const FullWidthProjectImgPath = "/images/paymentformpicture.png";
 
 //RESEARCH
-const ResearchTitle = "The Research";
-const ResearchSubtitle = "Survey and Competitor Analysis";
+const ContentBlockResearch = "The Research";
+const ContentBlockResearchDescription = (
+  <>
+    The purpose of the research was to discover how’s the best donation experience and what’s 
+    the worst, the Seattle Dogs users have a lower payment abandonment chance. To start my research, 
+    I brainstormed a bunch of questions that could help me understand the users pain points. 
+    <br />
+    <br />
+    What form of payment is often used and preferred?
+    <br />
+    Do users prefer a one-page form or steps for payment?
+    <br />
+    What platform do users use more when making a payment?
+    <br />
+    What are the reasons for checkout abandonment?
+    <br />
+    Knowing the answers for these questions, I’ll be able to design a smooth payment form process for the users.
+  </>
+);
+
+const BaymardResearchTitle = "The Step One";
+const BaymardResearchDescription = (
+  <>
+    To not start from zero, I did research on cart abandonment rate and I found this quantitate research
+    made in 2021 by Baymard Institute (you can find the full Baymard research here). With that, I gathered bullet 
+    points from the research to build my own survey. 
+
+  </>
+);
+
+const BaymardResearchImgPath1 = "/images/image_board.jpg";
+const BaymardResearchImgPath2 = "/images/image_notpositive.jpg";
+const BaymardResearchImgPath3 = "/images/image_positive.jpg";
+const BaymardResearchImgPath4 = "/images/afterlightImage.jpg";
+
+
+const ResearchTitle = "What do users think about payment forms?";
+const ResearchSubtitle = "Survey made with 21 participants";
 const ResearchDescription = (
   <>
-    The purpose of the research was to discover how’s the best donation experience and what’s the worst, 
-    the Seattle Dogs users have a lower payment abandonment chance. To start my research, I brainstormed a
-     bunch of questions that could help me understand the users pain points.
-     <br />
-     What form of payment is often used and preferred.
-     Do users prefer a one-page form or steps for payment?
-     What platform do users use more when making a payment?
-     Reasons for checkout abandonment?
-
-    <br />
-    Knowing the answers for these questions, I’ll be able to design a smooth payment form process for the users. 
+    From the data collected above, I was able to continue and create a survey to 
+    collect more quantative data. The survey had an extra step for those who already 
+    had donated before, so I can understand pain points from people who had a donation experience before. 
+    This survey had a total of 21 participants. 
+   
   </>
 );
 const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/sad2_emoji.png",
     description:
-      "100% of donors participants often feels frustrated if they don’t know where their money is going towards",
+      "100% participants made a donation before",
   },
   {
     imgPath: "/images/thumbsup_emoji.png",
     description:
-      "100% of the participants think that reading about experiences from volunteers, donors & supporters is important.",
+      "53% participants used desktop device, 29% used mobile and 18% used both.",
   },
   {
     imgPath: "/images/smile_emoji.png",
     description:
-      "25% of participants feel encouraged to donate if there’s a possibility of talking with the founder",
+      "62% participants prefers credit card as donation platform",
   },
   {
     imgPath: "/images/sad-emoji.png",
     description:
-      "The participants who’ve never donated before have never found an organization they truly trust",
+      "81% prefers to have all the required information (name, address, card information) presented on a single page, instead of a multiple page step-by-step approach where each section is displayed as you fill it up.",
   },
   {
     imgPath: "/images/frustraded-emoji.png",
     description:
-      "20% of participants had a frustrating donation experience because the website wasn't clear on where they should click to start the donation process",
+      "42% doesn’t like that the website required them to create an account.",
   },
 ];
 const ResearchFootnoteParagraph = (
@@ -480,6 +510,39 @@ export default function WorkPage() {
             width="580px"
             src={FullWidthProjectImgPath}
           />
+        </Container>
+      </FullContainer>
+      <FullContainer className="bg-white">
+        <Container className="py-16 min-h-[500px]">
+          <div className="text-center ">
+            <WorkPageContentBlock
+              className="lg:w-[70%] mx-auto"
+              header={ContentBlockResearch}
+            >
+              {ContentBlockResearchDescription}
+            </WorkPageContentBlock>
+          </div>
+        </Container>
+      </FullContainer>
+      <FullContainer className="bg-white">
+        <Container className="py-16 min-h-[500px]">
+          <Row className="" direction="left">
+            <div className="lg:w-1/2 lg:pr-16">
+              <WorkPageContentBlock header={BaymardResearchTitle}>
+                {BaymardResearchDescription}
+              </WorkPageContentBlock>
+            </div>
+            <div className="lg:w-1/2 w-full justify-around">
+              <Row className="pb-4 " direction="left">
+                <img className="w-2/6" src={BaymardResearchImgPath1} />{" "}
+                <img className="w-2/6" src={BaymardResearchImgPath2} />
+              </Row>
+              <Row className="" direction="left">
+                <img className="w-2/6 " src={BaymardResearchImgPath3} />{" "}
+                <img className="w-2/6" src={BaymardResearchImgPath4} />
+              </Row>
+            </div>
+          </Row>
         </Container>
       </FullContainer>
       <FullContainer className="bg-[color:var(--off-white)]">
