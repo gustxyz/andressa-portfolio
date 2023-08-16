@@ -95,7 +95,7 @@ const FullWidthProjectImgPath = "/images/paymentformpicture.png";
 
 //RESEARCH
 const ResearchTitle = "What do users think about payment forms?";
-const ResearchSubtitle = "Survey made with 21 participants";
+const ResearchSubtitle = "";
 const ResearchDescription = (
   <>
     First, I did research on cart abandonment rate and I found this quantitate research made in 
@@ -178,7 +178,7 @@ const ResearchFootnoteAuthor = "— Quote from a user's survey";
 
 
 
-//NAVIGATION
+//How Might We
 const NavigationTitle = "How Might We";
 const NavigationDescription = (
   <>
@@ -191,26 +191,26 @@ const NavigationDescription = (
 
 const NavigationImgPath2 = "/images/howmightwe.png";
 
-//Navigation Improvement
-const NavigationImprovementTitle = "Navigation Improvement";
+//Feature Priority
+const NavigationImprovementTitle = "Priorities";
 const NavigationImprovementDescription = (
   <>
-    The current website is underdeveloped, not allowing the users to navigate
-    easily. One of the main reasons is the current site map, which is one of the
-    biggest changes I made:
+   Next, I separeted into priority level the solutions I brainstormed. 
+   <br />
+   By doing that, I ensure I'm prioritizing the most important features that can help the user to reach their goals. 
   </>
 );
 
-const NavigationImprovementContent1Title = "Photo and Video page";
+const NavigationImprovementContent1Title = "";
 const NavigationImprovementContent1Description =
-  "Instead of having individual page for Photos and Videos like in the old site, I included those in the “About Us” and “How we Help” page, so the user have both text and picture information about the organization in the same page, decreasing the user research time in the website.";
+  "";
 
-const NavigationImprovementContent2Title = "Forms";
+const NavigationImprovementContent2Title = "";
 const NavigationImprovementContent2Description =
-  "Similar change was made with the Forms page from the old website version. Instead of having an exclusive page for it, the forms were distributed in their proper pages. For example, the Volunteer form now is found in the Volunteer page, Foster form in the Foster page and so on. That way, the user have all information needed in one page instead of going to a different page to find the form they’re looking for.";
+  "";
 
-const NavigationImprovementImgPath1 = "/images/audiovideo.gif";
-const NavigationImprovementImgPath2 = "/images/forms.gif";
+const NavigationImprovementImgPath1 = "/images/priority.png";
+const NavigationImprovementImgPath2 = "/images/cancomelater.png";
 
 //Sketches and Wireframes
 const SketchesAndWireframesTitle = "Wireframes";
@@ -539,7 +539,7 @@ export default function WorkPage() {
           <img className="w-full" src={NavigationImgPath2} />
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--off-white)]">
+      <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           
           <div className="text-center ">
