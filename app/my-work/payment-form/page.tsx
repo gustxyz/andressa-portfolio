@@ -248,7 +248,7 @@ const FinalThoughts2Description = (
      confusing features. After that, I’ll prepare a presentation and offer the design for the organization, 
      in case they have a developer that would like to make the design a real website version. If you’d like to 
      read the case study for the whole website,  can find the case study for the entire
-      website <a className="underline" href="/my-work/payment-form"> here.</a>
+      website <a className="underline" href="/my-work/seattle-dogs"> here.</a>
 
       <br />
       <br />
