@@ -558,7 +558,10 @@ export default function WorkPage() {
             </WorkPageContentBlock>
           </div>
           <img className="w-full" src={PrototypeImgPath} />
-          
+       </Container>
+      </FullContainer>
+      <FullContainer className="bg-[color:var(--off-white)]">
+        <Container className="py-16 min-h-[500px]">
           <p className="lg:w-[70%] mx-auto text-center  my-8 font-size-large-extra-large font-bold">
             {PrototypeInteractive}
           </p>
@@ -569,7 +572,7 @@ export default function WorkPage() {
           </p>
         </Container>
       </FullContainer>
-      <FullContainer className="bg-white">
+      <FullContainer className="bh-white">
         <Container className="py-16 min-h-[500px]">
           <Row direction="left" className="">
             <WorkPageContentBlock
