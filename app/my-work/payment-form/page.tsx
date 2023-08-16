@@ -213,16 +213,16 @@ const NavigationImprovementImgPath1 = "/images/priority.png";
 const NavigationImprovementImgPath2 = "/images/cancomelater.png";
 
 //Sketches and Wireframes
-const SketchesAndWireframesTitle = "Wireframes";
+const SketchesAndWireframesTitle = "Priorities";
 const SketchesAndWireframesDescription = (
   <>
-    The next step in my process was creating the wireframes. It enables me to
-    examine my ideas before adding details and more elaborated visuals,
-    allowing me to make quick changes and explore my ideas.
+    Next, I separeted on AirTable the priority level of the solutions I brainstormed. 
+   <br />
+   By doing that, I ensure I'm prioritizing the most important features that can help the user to reach their goals. 
   </>
 );
 
-const SketchImgPath1 = "/images/wireframies-okay.png";
+const SketchImgPath1 = "/images/airtable.png";
 
 const PrototypesTitle = "High-Fidelity Wireframes & Prototype";
 const PrototypesDescription = (
