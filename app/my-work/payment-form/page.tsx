@@ -222,7 +222,7 @@ const PrototypesDescription = (
   </>
 );
 
-const PrototypeImgPath = "/images/paymenthighfidelity.png";
+const PrototypeImgPath = "/images/mockuppayment.png";
 
 
 const PrototypeInteractive =
