@@ -566,7 +566,7 @@ export default function WorkPage() {
             {PrototypeInteractive}
           </p>
           {/* <img className="w-full h-[402px]" src={PrototypeInteractiveImgPath} /> */}
-          <iframe className="w-full h-[402px]"  style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYtXQA9fCQuG1vJcAIXVu2C%2FPayment-Form---Seattle-Dogs%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D219-903%26viewport%3D-632%252C720%252C0.3%26t%3DU7LKeJ3mZ43wj9iX-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D3%253A30%26mode%3Ddesign" allowFullScreen></iframe>
+          <iframe className="w-full h-[402px]"  style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYtXQA9fCQuG1vJcAIXVu2C%2FPayment-Form---Seattle-Dogs%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D219-903%26viewport%3D-632%252C720%252C0.3%26t%3DU7LKeJ3mZ43wj9iX-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D3%253A30%26mode%3Ddesign" allowFullScreen></iframe>
           <p className="lg:w-[70%] mx-auto text-center  my-8 pb-2 font-size-large-extra-large font-bold">
             {PrototypeInteractive2}
           </p>
