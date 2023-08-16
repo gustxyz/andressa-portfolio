@@ -18,7 +18,7 @@ import FullContainer from "@/components/FullContainer";
 const HeroTitle = "Improving the donation experience";
 const HeroDescription =
   "As a sole UX & UI Designer, I created a seamless payment experience that puts user concerns at ease..";
-const HeroImgPath = "/images/payment_mockup.png";
+const HeroImgPath = "/images/paymentformhea.png";
 
 const projectStats: ProjectStats[] = [
   {
