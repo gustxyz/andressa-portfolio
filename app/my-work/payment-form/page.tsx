@@ -572,7 +572,7 @@ export default function WorkPage() {
           </p>
         </Container>
       </FullContainer>
-      <FullContainer className="bh-white">
+      <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           <Row direction="left" className="">
             <WorkPageContentBlock
