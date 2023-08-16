@@ -103,9 +103,14 @@ const ResearchDescription = (
     I gathered bullet points from the research to build my own survey. 
     <br />
     <br />
-    From the data collected I created a survey to gather
-    more information about donatipon specifically and have a quantative data. The survey had an extra step for those who already had 
-    donated before, so I can understand pain points from people who had a donation experience before. The survey had a total of 21 participants, created on Google Forms.
+    From the data collected based on the Baymard research,  I created a survey to gather
+    more information about donations specifically, and have a quantative data to move foward with solutions. 
+    The survey had an extra step for those who already had donated before, 
+    so I can understand the pain points from people who have had a donation experience before. 
+    The survey had a total of 21 participants, answered throught Google Forms.
+    <br />
+    <br />
+    With the survey results, I collected the following insights:
 
   </>
 );
@@ -114,12 +119,12 @@ const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/icon-100.png",
     description:
-      "100% participants made a donation before.",
+      "100% participants had donated before.",
   },
   {
     imgPath: "/images/icon-phone.png",
     description:
-      "53% participants used desktop device, 29% used mobile and 18% used both.",
+      "53% participants used desktop device, while 29% used mobile and 18% used both.",
   },
   {
     imgPath: "/images/icon-creditcard.png",
@@ -134,7 +139,7 @@ const researchItems: ResearchItem[] = [
   {
     imgPath: "/images/icon-frustrated.png",
     description:
-      "42% doesn’t like that the website required them to create an account.",
+      "42% of participants doesn’t like that the website required them to create an account.",
   },
 ];
 
@@ -175,8 +180,9 @@ const ResearchFootnoteAuthor = "— Quote from a user's survey";
 const NavigationTitle = "How Might We";
 const NavigationDescription = (
   <>
-    After collecting all the data from the survey, 
-    I gathered the pain points and started to brainstorm solutions with the How Might We method.
+    After collecting all the data from the survey, I gathered the pain points and 
+    <br />
+    started to brainstorm solutions with the How Might We method.
   </>
 );
 
