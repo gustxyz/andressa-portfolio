@@ -159,10 +159,12 @@ const CompetitorAnalysisTitle = "Competitor Analysis";
 const CompetitorAnalysisDescription = (
   <>
     I gathered 4 different competitors to analyze: Feeding Pets of the Homeless,
-    Do Something, Hotel for Homeless Dogs, GoFundMe. Not all of them is about homelessness or dogs,
+    Do Something, Hotel for Homeless Dogs, and GoFundMe. Not all of them is about homelessness or dogs,
     but the intent here was to analyze specificaly the donation pages. In my research, I simulated donations in all the websites. 
+    <br />
+    <br />
     They all had different design patterns and functionality, so this was an important step for the design 
-    process. I was able to collect different helpful functionalities and features to gather all in one donation form. 
+    process. For data, I had negative (red) and good (green) notes. With that, I was able to collect different helpful functionalities and features to gather all in one donation form. 
 
   </>
 );
@@ -454,7 +456,7 @@ export default function WorkPage() {
           </div>
           <Row direction="left">
             <WorkPageContentBlock
-              className="lg:w-1/2 lg:pr-14"
+              className="lg:w-1/2 lg:pr-14 mb-auto"
               header={ContentBlock2Title}
             >
               {ContentBlock2Description}
