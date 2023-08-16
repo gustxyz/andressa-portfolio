@@ -176,12 +176,12 @@ const NavigationTitle = "How Might We";
 const NavigationDescription = (
   <>
     After collecting all the data from the survey, 
-    I gather the pain points and started to work on solutions with the How Might We method.
+    I gathered the pain points and started to brainstorm solutions with the How Might We method.
   </>
 );
 
 
-const NavigationImgPath2 = "/images/seattledogssitemap.png";
+const NavigationImgPath2 = "/images/howmightwe.png";
 
 //Navigation Improvement
 const NavigationImprovementTitle = "Navigation Improvement";
@@ -517,7 +517,7 @@ export default function WorkPage() {
           </Row>
         </Container>
       </FullContainer>
-      <FullContainer className="bg-white">
+      <FullContainer className="bg-yellow">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center ">
             <WorkPageContentBlock
