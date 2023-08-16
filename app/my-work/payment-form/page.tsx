@@ -226,7 +226,7 @@ const PrototypeImgPath = "/images/paymenthighfidelity.png";
 
 
 const PrototypeInteractive =
-  "Bellow, you can navigate through the desktop version of the interactive prototype I created";
+  "Bellow, you can navigate through the desktop version of the interactive prototype I created (full screen available and recommended)";
 
 const PrototypeInteractive2 =
   <>For mobile prototype, you can navigate <a href="https://www.figma.com/proto/YtXQA9fCQuG1vJcAIXVu2C/Payment-Form---Seattle-Dogs?page-id=0%3A1&type=design&node-id=265-5375&viewport=420%2C806%2C0.3&t=hY3YMnpFPYOH6eZL-1&scaling=min-zoom&starting-point-node-id=3%3A30&mode=design"><u>clicking here</u> </a>  </>;
