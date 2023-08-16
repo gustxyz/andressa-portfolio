@@ -192,8 +192,8 @@ const NavigationDescription = (
 const NavigationImgPath2 = "/images/howmightwe.png";
 
 //Sketches and Wireframes
-const SketchesAndWireframesTitle = "What should be prioritized?";
-const SketchesAndWireframesDescription = (
+const PriorityTitle = "What Should Be Prioritized?";
+const PriorityDescription = (
   <>
     Next, I separeted on AirTable the priority level of the solutions I brainstormed. 
    <br />
@@ -201,34 +201,35 @@ const SketchesAndWireframesDescription = (
   </>
 );
 
-const SketchImgPath1 = "/images/airtable.png";
+const PriorityImgPath1 = "/images/airtable.png";
 
-const PrototypesTitle = "High-Fidelity Wireframes & Prototype";
-const PrototypesDescription = (
+const SketchesTitle = "Sketching the ideas";
+const SketchesDescription = (
   <>
-    Once I had the mid-fidelity wireframe ready, I was able to apply established
-    styles and examine the overall aesthetic feelings and visual balance of the
-    application. The organization already have a logo, so I followed the current
-    the brand colors, adapting when necessary to follow WCAG 2.0 guidelines to
-    guarantee good accessibly.
-    <br />
-    <br />
-    <br />
-    Cards and Accordion were used for better use of space and
-    navigation flow. Interactive buttons and pictures allows direct
-    communication with the user and send the necessary commands to achieve the
-    “click” goal.
+    After having the ideas, I starded working on the visual part of the process and worked on some low-fidelity sketches.
+   That process helps me putting a visual on my ideas and allows me to make quickly changes if necessary. 
   </>
 );
 
-const PrototypeImgPath = "/images/highfidelity-seattledogs-pages.png";
+const SketchesImgPath1 = "/images/sketchespayment.png";
+
+const PrototypesTitle = "Wireframes & Prototype";
+const PrototypesDescription = (
+  <>
+    Once I had the sketches ready, I was able to tranfer my ideas into digital versions with wireframes on Figma. 
+    After adjustments and adding details into it, I was able to work on my personal favorite part: Prototypes. 
+    That's where all the magic happens and we're able to actually have an interactive experience with the product. 
+  </>
+);
+
+const PrototypeImgPath = "/images/paymenthighfidelity.png";
 
 
 const PrototypeInteractive =
   "Bellow, you can navigate through the desktop version of the interactive prototype I created";
 
 const PrototypeInteractive2 =
-  <>For mobile prototype, you can navigate <a href="https://www.figma.com/proto/65f8qy036va020Zlbv68d9/Seattle-Dogs?page-id=462%3A1846&type=design&node-id=341-987&viewport=1066%2C-578%2C0.12&t=6H7jH8oC4WF6Vlhh-1&scaling=min-zoom&starting-point-node-id=418%3A2710&mode=design"><u>clicking here</u> </a>  </>;
+  <>For mobile prototype, you can navigate <a href="https://www.figma.com/proto/YtXQA9fCQuG1vJcAIXVu2C/Payment-Form---Seattle-Dogs?page-id=0%3A1&type=design&node-id=265-5375&viewport=420%2C806%2C0.3&t=hY3YMnpFPYOH6eZL-1&scaling=min-zoom&starting-point-node-id=3%3A30&mode=design"><u>clicking here</u> </a>  </>;
 
 const FinalThoughts1Title = "Final Thoughts";
 const FinalThoughts1Description = (
@@ -523,12 +524,26 @@ export default function WorkPage() {
           <div className="text-center pb-8">
             <WorkPageContentBlock
               className="lg:w-[70%] mx-auto"
-              header={SketchesAndWireframesTitle}
+              header={PriorityTitle}
             >
-              {SketchesAndWireframesDescription}
+              {PriorityDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="mx-auto" width="750" src={SketchImgPath1} />
+          <img className="mx-auto" width="750" src={PriorityImgPath1} />
+
+        </Container>
+      </FullContainer>
+      <FullContainer className="bg-white">
+        <Container className="py-16 min-h-[500px]">
+          <div className="text-center pb-8">
+            <WorkPageContentBlock
+              className="lg:w-[70%] mx-auto"
+              header={SketchesTitle}
+            >
+              {SketchesDescription}
+            </WorkPageContentBlock>
+          </div>
+          <img className="mx-auto" width="750" src={SketchesImgPath1} />
 
         </Container>
       </FullContainer>
@@ -548,7 +563,7 @@ export default function WorkPage() {
             {PrototypeInteractive}
           </p>
           {/* <img className="w-full h-[402px]" src={PrototypeInteractiveImgPath} /> */}
-          <iframe className="w-full h-[402px]"  style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F65f8qy036va020Zlbv68d9%2FSeattle-Dogs%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D112-221%26viewport%3D687%252C-257%252C0.04%26t%3DSgbtPKZNp98ZCyZ3-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D194%253A217%26mode%3Ddesign" allowFullScreen></iframe>
+          <iframe className="w-full h-[402px]"  style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYtXQA9fCQuG1vJcAIXVu2C%2FPayment-Form---Seattle-Dogs%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D219-903%26viewport%3D-632%252C720%252C0.3%26t%3DU7LKeJ3mZ43wj9iX-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D3%253A30%26mode%3Ddesign" allowFullScreen></iframe>
           <p className="lg:w-[70%] mx-auto text-center  my-8 pb-2 font-size-large-extra-large font-bold">
             {PrototypeInteractive2}
           </p>
