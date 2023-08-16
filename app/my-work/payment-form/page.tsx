@@ -191,27 +191,6 @@ const NavigationDescription = (
 
 const NavigationImgPath2 = "/images/howmightwe.png";
 
-//Feature Priority
-const NavigationImprovementTitle = "Priorities";
-const NavigationImprovementDescription = (
-  <>
-   Next, I separeted into priority level the solutions I brainstormed. 
-   <br />
-   By doing that, I ensure I'm prioritizing the most important features that can help the user to reach their goals. 
-  </>
-);
-
-const NavigationImprovementContent1Title = "";
-const NavigationImprovementContent1Description =
-  "";
-
-const NavigationImprovementContent2Title = "";
-const NavigationImprovementContent2Description =
-  "";
-
-const NavigationImprovementImgPath1 = "/images/priority.png";
-const NavigationImprovementImgPath2 = "/images/cancomelater.png";
-
 //Sketches and Wireframes
 const SketchesAndWireframesTitle = "Priorities";
 const SketchesAndWireframesDescription = (
@@ -537,33 +516,6 @@ export default function WorkPage() {
           </div>
           
           <img className="w-full" src={NavigationImgPath2} />
-        </Container>
-      </FullContainer>
-      <FullContainer className="bg-white">
-        <Container className="py-16 min-h-[500px]">
-          
-          <div className="text-center ">
-            <WorkPageContentBlock
-              className="lg:w-[70%] mx-auto"
-              header={NavigationImprovementTitle}
-            >
-              {NavigationImprovementDescription}
-            </WorkPageContentBlock>
-          </div>
-          <Row direction="left">
-            <ImgCard
-              className="lg:w-1/2 lg:mb-auto lg:mr-14"
-              title={NavigationImprovementContent1Title}
-              imgpath={NavigationImprovementImgPath1}
-              description={NavigationImprovementContent1Description}
-            />
-            <ImgCard
-              className="lg:w-1/2 lg:mb-auto"
-              title={NavigationImprovementContent2Title}
-              imgpath={NavigationImprovementImgPath2}
-              description={NavigationImprovementContent2Description}
-            />
-          </Row>
         </Container>
       </FullContainer>
       <FullContainer className="bg-white">
