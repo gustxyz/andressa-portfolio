@@ -517,7 +517,7 @@ export default function WorkPage() {
           </Row>
         </Container>
       </FullContainer>
-      <FullContainer className="bg-yellow">
+      <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center ">
             <WorkPageContentBlock
