@@ -167,10 +167,10 @@ const CompetitorAnalysisDescription = (
   </>
 );
 
-const CompetitorImgPath1 = "/images/image_board.jpg";
-const CompetitorImgPath2 = "/images/image_notpositive.jpg";
-const CompetitorImgPath3 = "/images/image_positive.jpg";
-const CompetitorImgPath4 = "/images/afterlightImage.jpg";
+const CompetitorImgPath1 = "/images/comp-homelessfeed.png";
+const CompetitorImgPath2 = "/images/comp-dosomething.png";
+const CompetitorImgPath3 = "/images/comp-hotel.png";
+const CompetitorImgPath4 = "/images/comp-gofund.png";
 
 const ResearchFootnoteAuthor = "— Quote from a user's survey";
 
