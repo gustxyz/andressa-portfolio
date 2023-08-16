@@ -17,7 +17,7 @@ import FullContainer from "@/components/FullContainer";
 //HERO
 const HeroTitle = "Improving the donation experience";
 const HeroDescription =
-  "As a sole UX & UI Designer, I created a end-to-end seamless payment experience that puts user concerns at ease.";
+  "As a sole UX & UI Designer, I created an end to end seamless payment experience that puts user concerns at ease.";
 const HeroImgPath = "/images/paymentformhea.png";
 
 const projectStats: ProjectStats[] = [
@@ -98,14 +98,14 @@ const ResearchTitle = "What do users think about payment forms?";
 const ResearchSubtitle = "";
 const ResearchDescription = (
   <>
-    First, I did research on cart abandonment rate and I found this quantitate research made in 
+    First, I did research on cart abandonment rate and I found this quantitative research made in 
     2021 by Baymard Institute (you can find the full Baymard research <a href="https://baymard.com/lists/cart-abandonment-rate#why-users-abandon-their-cart"><u>here</u> </a>). With that, 
     I gathered bullet points from the research to build my own survey. 
     <br />
     <br />
-    From the data collected based on the Baymard research,  I created a survey to gather
-    more information about donations specifically, and have a quantative data to move foward with solutions. 
-    The survey had an extra step for those who already had donated before, 
+    From the data collected based on the Baymard research I created a survey to gather
+    more information about donations, and have a quantitative data to move foward with creating solutions. 
+    The survey had an extra set of questions for those who already had donated before, 
     so I can understand the pain points from people who have had a donation experience before. 
     The survey had a total of 21 participants, answered throught Google Forms.
     <br />
@@ -192,7 +192,7 @@ const NavigationDescription = (
 const NavigationImgPath2 = "/images/howmightwe.png";
 
 //Sketches and Wireframes
-const SketchesAndWireframesTitle = "Priorities";
+const SketchesAndWireframesTitle = "What should be prioritized?";
 const SketchesAndWireframesDescription = (
   <>
     Next, I separeted on AirTable the priority level of the solutions I brainstormed. 
