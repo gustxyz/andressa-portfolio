@@ -533,7 +533,7 @@ export default function WorkPage() {
 
         </Container>
       </FullContainer>
-      <FullContainer className="bg-white">
+      <FullContainer className="bg-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock
@@ -547,7 +547,7 @@ export default function WorkPage() {
 
         </Container>
       </FullContainer>
-      <FullContainer className="bg-[color:var(--off-white)]">
+      <FullContainer className="bg-white">
         <Container className="py-16 min-h-[500px]">
           <div className="text-center pb-8">
             <WorkPageContentBlock
@@ -569,7 +569,7 @@ export default function WorkPage() {
           </p>
         </Container>
       </FullContainer>
-      <FullContainer className="bg-white">
+      <FullContainer className="-[color:var(--off-white)]">
         <Container className="py-16 min-h-[500px]">
           <Row direction="left" className="">
             <WorkPageContentBlock
