@@ -432,8 +432,8 @@ export default function WorkPage() {
             {" "}
             <img
               className="lg:mt-0 mt-4"
-              height="400px"
-              width="630px"
+              height="350px"
+              width="580px"
               src={HeroImgPath}
             />
             <HeroContent
