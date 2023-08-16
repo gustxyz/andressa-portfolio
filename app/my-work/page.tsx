@@ -37,7 +37,7 @@ export default function Home() {
       <Container>
         <Card
           imagePath="/images/payment_mockup.png"
-          contentTitle="A Straightforward Payment Form"
+          contentTitle="Straightforward Payment Form"
           contentParagraph="Improving the way users make donations, the end to end creation of a seamless web donation experience that puts users concerns at ease."
           contentAnchor="my-work/payment-form"
           color="white"
