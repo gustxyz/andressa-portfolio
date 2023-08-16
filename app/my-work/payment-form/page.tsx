@@ -576,7 +576,7 @@ export default function WorkPage() {
               {SketchesAndWireframesDescription}
             </WorkPageContentBlock>
           </div>
-          <img className="w-full h-[576px] " src={SketchImgPath1} />
+          <img className="mx-auto" width="750" src={SketchImgPath1} />
 
         </Container>
       </FullContainer>
