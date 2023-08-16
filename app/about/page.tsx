@@ -30,14 +30,14 @@ const Description1 = (
 
 const Description2 = (
   <>
-    I'm passionate about creating <b>beautiful and functional</b> designs that
+    I'm enjoy the process on creating <b>beautiful and functional</b> designs that
     can help people to achieve their goals. I'm also a <b>problem solver</b> and
     I love to work with people that are as passionate as I am about creating{" "}
     <b>impactful</b> and <b>meaningful</b> products.
   </>
 );
 
-const Bubble = `"I'm passionate about creating solutions and based in empathy and inclusion, by designing with equity in mind."`;
+const Bubble = `"I’m passionate about helping people and found in design a way to do that while keeping my creativity alive. I create solutions based in empathy and inclusion, designing with equity in mind and optimizing people’s digital experience."`;
 
 const HeroImgPath = "/images/picture_me.jpg";
 
