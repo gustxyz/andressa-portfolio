@@ -234,25 +234,26 @@ const PrototypeInteractive2 =
 const FinalThoughts1Title = "Final Thoughts";
 const FinalThoughts1Description = (
   <>
-    Seattle Dogs final design is a result of research, insights and design
-    thinking. With the final product, I believe I have met the goals that were
-    outlined in the beginning of the design process.
-    <br />
-    <br />
-    User experience was a priority for the redesign, focused on delivering a
-    smooth navigation to make sure the user have all the tools needed to build
-    the trust wanted with the organization.
+    This project is the one I am most proud of, I enjoyed every step of the way and learned 
+    so much from the research to the prototype. I took the time to learn prototyping skills 
+    and created an end to end responsible Figma file. This is definitely a  valuable skill I 
+    can take with me into my design career going forward.
   </>
 );
 
 const FinalThoughts2Title = "Looking ahead";
 const FinalThoughts2Description = (
   <>
-    There is still a lot more to explore with Seattle Dogs. One of the things
-    I’m looking forward to work on now is the donation page, which is the next
-    step process for a complete non-profit website. Donation is important and
-    having a functional donation payment form is beyond necessary for the
-    website. You can find the case study for the payment form <a className="underline" href="/my-work/payment-form"> here.</a>
+     Now with the prototype ready, I’d like to run a usability test to identify if there’s any 
+     confusing features. After that, I’ll prepare a presentation and offer the design for the organization, 
+     in case they have a developer that would like to make the design a real website version. If you’d like to 
+     read the case study for the whole website,  can find the case study for the entire
+      website <a className="underline" href="/my-work/payment-form"> here.</a>
+
+      <br />
+      <br />
+      Besides that, I am ready and excited to work on my next project. If you have any ideas, feel free to message me!
+      I'd love to work with you. 
   </>
 );
 
