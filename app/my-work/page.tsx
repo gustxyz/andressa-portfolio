@@ -42,6 +42,7 @@ export default function Home() {
           contentAnchor="my-work/payment-form"
           color="white"
           direction="right"
+          
         />
       </Container>
       <Spacer />
@@ -53,6 +54,7 @@ export default function Home() {
           contentAnchor="my-work/seattle-dogs"
           color="green"
           direction="left"
+          button={false}
         />
       </Container>
       
