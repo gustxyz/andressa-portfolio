@@ -44,11 +44,11 @@ export default function Home() {
       <Container>
         <Card
           imagePath="/images/mockup-visual.png"
-          contentTitle="Visual Design Work"
+          contentTitle="Visual Design"
           contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). "
           contentAnchor="my-work/visual-design"
           color="yellow"
-          direction="right"
+          direction="left"
         />
       </Container>
       <Spacer />
