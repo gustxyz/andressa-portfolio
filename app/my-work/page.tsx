@@ -50,11 +50,11 @@ export default function Home() {
         <Card
           imagePath="/images/mockup-visual.png"
           contentTitle="Visual Design"
-          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). "
+          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). COMING SOON."
           contentAnchor="my-work/visual-design"
           color="yellow"
           direction="right"
-          buttonText="VIEW PORTFOLIO"
+         button={false}
         />
       </Container>
       <Spacer />
