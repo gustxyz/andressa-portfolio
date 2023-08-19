@@ -48,6 +48,17 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
+          imagePath="/images/mockup-visual.png"
+          contentTitle="Visual Design Work"
+          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). "
+          contentAnchor="my-work/visual-design"
+          color="yellow"
+          direction="right"
+        />
+      </Container>
+      <Spacer />
+      <Container>
+        <Card
           imagePath="/images/meetingpicture.png"
           contentTitle="AI Grammar and Writing Tool"
           contentParagraph="Contributed in the Company's design session to review a number of concepts for the design team. COMING SOON. "
