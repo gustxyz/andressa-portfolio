@@ -47,7 +47,7 @@ export default function Home() {
           contentTitle="Visual Design Work"
           contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). "
           contentAnchor="my-work/visual-design"
-          color="green"
+          color="yellow"
           direction="right"
         />
       </Container>
