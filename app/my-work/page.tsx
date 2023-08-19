@@ -30,7 +30,7 @@ export default function Home() {
           contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
           contentAnchor="my-work/seattle-dogs"
           color="yellow"
-          direction="left"
+          direction="right"
         />
       </Container>
       <Spacer />
@@ -41,7 +41,7 @@ export default function Home() {
           contentParagraph="Improving the way users make donations, the end to end creation of a seamless web donation experience that puts users concerns at ease."
           contentAnchor="my-work/payment-form"
           color="white"
-          direction="right"
+          direction="left"
           
         />
       </Container>
@@ -53,7 +53,7 @@ export default function Home() {
           contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). "
           contentAnchor="my-work/visual-design"
           color="yellow"
-          direction="left"
+          direction="right"
           buttonText="VIEW COLLECTION"
         />
       </Container>
@@ -65,7 +65,7 @@ export default function Home() {
           contentParagraph="Contributed in the Company's design session to review a number of concepts for the design team. COMING SOON. "
           contentAnchor="my-work/seattle-dogs"
           color="green"
-          direction="right"
+          direction="left"
           button={false}
         />
       </Container>
