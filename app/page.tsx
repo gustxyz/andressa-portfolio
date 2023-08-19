@@ -41,6 +41,17 @@ export default function Home() {
         />
       </Container>
       <Spacer />
+      <Container>
+        <Card
+          imagePath="/images/mockup-visual.png"
+          contentTitle="Visual Design Work"
+          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). "
+          contentAnchor="my-work/visual-design"
+          color="green"
+          direction="right"
+        />
+      </Container>
+      <Spacer />
     </>
   );
 }
