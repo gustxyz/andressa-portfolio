@@ -49,6 +49,7 @@ export default function Home() {
           contentAnchor="my-work/visual-design"
           color="yellow"
           direction="left"
+          buttonText="View cake"
         />
       </Container>
       <Spacer />

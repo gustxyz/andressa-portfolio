@@ -7,18 +7,20 @@ const Text = ({
   header,
   paragraph,
   anchor,
-  button = true
+  button = true,
+  buttonText
 }: {
   header: string;
   paragraph: string;
   anchor: string;
   button: boolean | undefined;
+  buttonText: string;
 }) => {
   return (
     <div className="my-auto flex flex-col lg:w-2/6 ">
       <h3 className="font-size-extra-large font-bold mb-4">{header}</h3>
       <p className="font-size-large mb-8">{paragraph}</p>
-      {button && <BtnCaseStudy link={anchor} /> }
+      {button && <BtnCaseStudy link={anchor} > {buttonText} </BtnCaseStudy> }
     </div>
   );
 };
@@ -32,6 +34,7 @@ interface CardProps {
   contentParagraph: string;
   contentAnchor: string;
   button?: boolean;
+  buttonText?: string;
 }
 
 //write a function that returns a color class depending on a color string passed in
@@ -49,7 +52,8 @@ export default function Card({
   contentTitle,
   contentAnchor,
   contentParagraph,
-  button
+  button, 
+  buttonText="VIEW CASE STUDY"
 }: CardProps) {
   return (
     <section
@@ -69,6 +73,7 @@ export default function Card({
           paragraph={contentParagraph}
           anchor={contentAnchor}
           button={button}
+          buttonText={buttonText}
         />
       </Row>
     </section>
