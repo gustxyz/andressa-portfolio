@@ -21,12 +21,12 @@ export default function Footer() {
         <div className="flex flex-row pb-3">
           <a
             className="pr-4"
-            href={"https://www.behance.net/azdalecio"}
+            href={"https://dribbble.com/azdalecio"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={"/images/behance_white_icon.png"}
+              src={"/images/icon_dribble_white.png"}
               alt={"Behance"}
               className="w-[26px]"
               width={27}

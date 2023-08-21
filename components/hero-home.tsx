@@ -20,7 +20,7 @@ export default function HeroHome() {
               <div className="flex flex-row">
                 <a
                   className="pr-4"
-                  href={"https://www.behance.net/azdalecio"}
+                  href={"https://dribbble.com/azdalecio"}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
