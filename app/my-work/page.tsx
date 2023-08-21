@@ -54,7 +54,7 @@ export default function Home() {
           contentAnchor="my-work/visual-design"
           color="yellow"
           direction="right"
-         button={false}
+          button={false}
         />
       </Container>
       <Spacer />

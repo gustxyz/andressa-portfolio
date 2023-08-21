@@ -25,7 +25,7 @@ export default function HeroHome() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={"/images/icon-behance.png"}
+                    src={"/images/icon_dribble.png"}
                     alt={"Behance"}
                     width={47}
                     height={54}
