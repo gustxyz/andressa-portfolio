@@ -45,7 +45,7 @@ export default function Home() {
         <Card
           imagePath="/images/mockup-visual.png"
           contentTitle="Visual Design"
-          contentParagraph="A collection of some of my visual design like UI/landing pages, social media content and motion graphic videos on my Dribble page"
+          contentParagraph="A collection of some of my visual design like UI/landing pages, social media content and motion graphic videos on my Dribble page. (EXTERNAL PAGE)"
           contentAnchor="https://dribbble.com/azdalecio"
           color="yellow"
           direction="right"
