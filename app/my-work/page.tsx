@@ -54,6 +54,7 @@ export default function Home() {
           contentAnchor="https://dribbble.com/azdalecio"
           color="yellow"
           direction="right"
+          buttonText="VIEW VISUAL DESIGN PORTFOLIO"
           external={true}
         />
       </Container>

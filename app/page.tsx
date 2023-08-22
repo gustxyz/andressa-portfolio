@@ -21,12 +21,14 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/v2_mockup_seattle_dogs.png"
-          contentTitle="Seattle Dogs, a Re-Design"
-          contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
-          contentAnchor="my-work/seattle-dogs"
+          imagePath="/images/mockup-visual.png"
+          contentTitle="Visual Design"
+          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). COMING SOON."
+          contentAnchor="https://dribbble.com/azdalecio"
           color="yellow"
           direction="right"
+          buttonText="VIEW VISUAL DESIGN PORTFOLIO"
+          external={true}
         />
       </Container>
       <Spacer />
