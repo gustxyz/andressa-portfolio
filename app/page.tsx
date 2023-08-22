@@ -21,14 +21,12 @@ export default function Home() {
       <Spacer />
       <Container>
         <Card
-          imagePath="/images/mockup-visual.png"
-          contentTitle="Visual Design"
-          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). COMING SOON."
-          contentAnchor="https://dribbble.com/azdalecio"
+          imagePath="/images/v2_mockup_seattle_dogs.png"
+          contentTitle="Seattle Dogs, a Re-Design"
+          contentParagraph="A result of research, insights, and design thinking, the re-design gives the user all the tools needed to build trust with the organization."
+          contentAnchor="my-work/seattle-dogs"
           color="yellow"
           direction="right"
-          buttonText="VIEW VISUAL DESIGN PORTFOLIO"
-          external={true}
         />
       </Container>
       <Spacer />
@@ -47,11 +45,12 @@ export default function Home() {
         <Card
           imagePath="/images/mockup-visual.png"
           contentTitle="Visual Design"
-          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). Coming Soon! "
-          contentAnchor="my-work/visual-design"
+          contentParagraph="A collection of some of my visual design like UI/landing pages, social media content and motion graphic videos on my Dribble page"
+          contentAnchor="https://dribbble.com/azdalecio"
           color="yellow"
           direction="right"
-          button={false}
+          buttonText="VIEW PORTFOLIO"
+          external={true}
         />
       </Container>
       <Spacer />

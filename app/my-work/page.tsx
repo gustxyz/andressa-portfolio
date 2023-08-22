@@ -50,11 +50,11 @@ export default function Home() {
         <Card
           imagePath="/images/mockup-visual.png"
           contentTitle="Visual Design"
-          contentParagraph="A collection of some of my visual design (landing pages, ilustration and motion graphic). COMING SOON."
+          contentParagraph="A collection of some of my visual design like UI/landing pages, social media content and motion graphic videos on my Dribble page"
           contentAnchor="https://dribbble.com/azdalecio"
           color="yellow"
           direction="right"
-          buttonText="VIEW VISUAL DESIGN PORTFOLIO"
+          buttonText="VIEW PORTFOLIO"
           external={true}
         />
       </Container>
