@@ -50,7 +50,7 @@ export default function Home() {
         <Card
           imagePath="/images/mockup-visual.png"
           contentTitle="Visual Design"
-          contentParagraph="A collection of some of my visual design like UI/landing pages, social media content and motion graphic videos on my Dribble page. (EXTERNAL PAGE)"
+          contentParagraph="A collection of some of my visual design like UI/landing pages, social media content and motion graphic videos on my Dribble page."
           contentAnchor="https://dribbble.com/azdalecio"
           color="yellow"
           direction="right"
@@ -64,7 +64,7 @@ export default function Home() {
           imagePath="/images/meetingpicture.png"
           contentTitle="AI Grammar and Writing Tool"
           contentParagraph="Contributed in the Company's design session to review a number of concepts for the design team. COMING SOON. "
-          contentAnchor="my-work/seattle-dogs"
+          contentAnchor="my-work/quilbolt"
           color="green"
           direction="left"
           button={false}
