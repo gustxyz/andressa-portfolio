@@ -30,7 +30,7 @@ const Description1 = (
 
 const Description2 = (
   <>
-    I'm enjoy the process on creating <b>beautiful and functional</b> designs that
+    I enjoy the process on creating <b>beautiful and functional</b> designs that
     can help people to achieve their goals. I'm also a <b>problem solver</b> and
     I love to work with people that are as passionate as I am about creating{" "}
     <b>impactful</b> and <b>meaningful</b> products.
